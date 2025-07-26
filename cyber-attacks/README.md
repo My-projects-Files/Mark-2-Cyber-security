@@ -107,3 +107,78 @@ Reasons why social engineering attacks are effective include:
 - **Trust**: Threat actors establish an emotional relationship with users that can be exploited over time. They use this relationship to develop trust and gain personal information.
 
 - **Urgency**: A threat actor persuades others to respond quickly and without questioning.
+
+## Password Attacks
+It is an attack to access secure devices, system, network or data.
+
+- **Brute Force** :  A brute force attack tries every possible combination of characters until it finds the correct password.
+
+- **Rainbow Table** : This attack falls under the communication & network security Domain. A rainbow table attack is a precomputed table of hashes for a large         list of passwords.
+
+## Advanced AI
+
+It is a technique that manipulates AI like machine learning, deep learning, and automation to conduct attack More efficiently.
+
+## Supplychain Attack
+
+It targets system, application, hardware & Software to locate a vulnerabilitys, where malware can be deployed.
+
+As every item sold undergoes a process that involves third part, This means security breaches can occure in any point in supply chain.
+
+## Cryptographic attack
+
+Cryptographic attacks are attempts by attackers to break or bypass encryption and security algorithms in order to gain access to sensitive data like passwords, messages, or keys.
+
+It affects secure forms of communcation between a sendoe and intended recipient.
+
+- **Birthday**
+- **Collision**
+- **Downgrade**
+
+It also comes under communication and network security.
+
+# Treat actor Types
+
+## Advanced persistent threats (APT)
+This treat actors have significent experties accessing an organisation network without authorization.
+
+**Intensions** :
+  - Damage critical infrastrecture, such as power grids and natural resources.
+  - Gaining access to intellectual property, trade secrets (or) Patents.
+
+## Insider threats
+
+They abuse their authority access to obtain data that may harm an organisation.
+
+**Intensions** :
+  - Sabotage
+  - Corruption
+  - Espionage
+  - leaks
+
+## Hacktivists
+
+They are driven by political agenda. They abuse digital technology to accomplish their goals.
+
+**Intensions** :
+  - Demonstrations
+  - Propaganda
+  - Fame
+  - Social change campaigns
+
+# Hacker Types
+
+## Ethical Hacker :
+Authorized hacker, An ethical hacker (also known as a white-hat hacker) is a cybersecurity professional who uses hacking techniques legally and ethically to help organizations identify and fix security vulnerabilities.
+
+  **Goals** : Their goal is to protect systems, not exploit them.
+
+## Semi-Ethical Hacker :
+A semi-ethical hacker, also known as a gray hat hacker or independent security researcher, operates between legal and illegal boundaries. They don’t have explicit permission to test a system but don’t intend to cause harm either.
+
+  **Goals** : They search vulnerabilities, but dont take advantages of the system.
+
+## Un-Ethical Hacker :
+Unethical hackers, also known as black hat hackers, are individuals or groups who use their technical skills to gain unauthorized access to systems for personal gain, disruption, theft, or espionage.
+
+  **Goals** : They operate illegally and with malicious intent, unlike ethical or gray hat hackers.

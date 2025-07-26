@@ -30,6 +30,22 @@ It is used to
 
 Security controls are safeguards or countermeasures put in place to detect, prevent, reduce, or correct security risks. They help protect systems, networks, data, and users from threats like unauthorized access, breaches, or malware.
 
-  EX: If an organisation has all its employees to complete a training as part of complicane. As an analyst we may use a tool to auto assign and track which employees completed the tasks.
+EX: If an organisation has all its employees to complete a training as part of complicane. As an analyst we may use a tool to auto assign and track which employees completed the tasks.
+
+**Asset**: An item perceived as having value to an organisation.
+
+## CIA Triad - The Foundation of Information Security
+
+The CIA Triad is a core concept in cybersecurity that represents the three primary principles used to protect information:
+
+ - **Confidentiality** :  Ensuring only authorized users can access sensitive data.
+ - **Integrity**       :  Ensuring data is accurate, consistent, and trustworthy.
+ - **Availability**    :  Ensuring data and systems are accessible when needed.
+
+
+
+
+
+  
 
   

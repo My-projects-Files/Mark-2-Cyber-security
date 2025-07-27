@@ -43,6 +43,41 @@ The CIA Triad is a core concept in cybersecurity that represents the three prima
  - **Availability**    :  Ensuring data and systems are accessible when needed.
 
 
+## NIST (National institue of standards and technology)
+
+It is a U.S based agency that develops multiple voluntary compliances framework that organisations worldwide can use to help manage risk.
+
+The more aligned an organisation is with compliance, the lower the risk.
+
+NOTE: The guidelines and specifications can change depending on the type of organisation.
+
+EX: Some of the framework includes
+
+- **NIST Cybersecurity Framework (CSF)**
+- **NIST Risk Management Framework (RMF)**
+
+### NIST Cybersecurity Framework (CSF):
+
+A voluntary framework that helps organizations manage and reduce cybersecurity risk. It’s high-level, flexible, and widely used across industries, including private and public sectors.
+
+**Purpose** : To identify, protect, detect, respond to, and recover from cyber threats.
+
+### NIST Risk Management framework (RMF):
+
+A detailed, mandatory framework (especially for U.S. federal agencies) focused on the full lifecycle of managing system security and risk — from categorization to ongoing monitoring.
+
+**Purpose** : To help secure information systems by integrating cybersecurity, privacy, and risk management activities into the system development life cycle (SDLC).
+
+## International Organization for Standardization (ISO) :
+
+ISO was created to establish international standards related to technology, manifactoring, and management across borders. it help organisations improve their processes and procedure for staff retention, planning, waste and services.
+
+## Payment card industry data security standard (PCI DSS):
+
+It is an international security standard meant to ensure that organisation store, accepts, processes and transmits credit card information can only be done in secure environment.
+
+**Purpose** : PCI DSS Objective is to reduce credit card fraud.
+
 
 
 

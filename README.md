@@ -19,6 +19,32 @@
 
     EX : ID number, Financial info etc
 
+- **Treat** : Any circumstances or events that can negatively impact assets.
+  
+- **Asset** : An item perceived as having value to an organisation.
+
+- **Vulnerability** : A wweakness that can be exploited by a Treat.
+
+    EX: Outdated firewall, software, Or hardware, Weak password are unprotected confidential data. (OR) Sometimes people can also be considered as vulnerability.
+
+          Vulnerability + Threat = Risk
+- **Risk** : Anything that can impact the confidentiality, integrity, or availability of an asset.
+
+Types of Risks:
+
+- **High-risk Asset**
+- **Medium-risk Asset**
+- **Low-risk Asset**
+
+**High-risk Asset**: Information Protected by regulations or laws, which if compromised would have a severe negative impact on an organisation Finances, Ongoing operations (Or) reputation.
+    EX: Leaked assets like SPII, PII, (or) Intelectual property.
+
+**Medium-risk Asset** : Information thats not available to the public and may cause some damage to the organisation finances, reputaion, (or) ongoing operations.
+    EX: Early release of company quaterly profits to impact stocks.
+
+**Low-risk Asset** : Information that would not harm the organisation reputation (or) ongoing operations, and would not cause reputaion, (or) ongoing operations.
+    EX: public websites, published research data.
+
   ## Benifits of security
 
   - **Protects againest external & internal threats**

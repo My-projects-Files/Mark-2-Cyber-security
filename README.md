@@ -45,6 +45,14 @@ Types of Risks:
 **Low-risk Asset** : Information that would not harm the organisation reputation (or) ongoing operations, and would not cause reputaion, (or) ongoing operations.
     EX: public websites, published research data.
 
+- **Risk Mitigation** : The Process of having the right Procedures and rules in place to quicly reduce the impact of a risk like a breach.
+
+- **Compliance** : It is the primary Method used to develop an organisations internal security policies, regulatiory, requirements, and independent standards.
+
+- **Business Continuity** : An Organisations ability to maintain their everyday productivity by establishing risk disaster recovery plans.
+
+- **Shared Responsibily** : All individuals within an organisation taken an active role in lowering risk and maintaining both physical and virtual security
+  
   ## Benifits of security
 
   - **Protects againest external & internal threats**

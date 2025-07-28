@@ -41,10 +41,11 @@
     As an analyst, we may be tasked with setting up employee keycard access to buildings.
 
   Components of IAM:
-      - Identification : identify an user.                       EX: Username, Access card
-      - Authentication : Provide Personalised verfication        EX: Password (Or) Pin
-      - Authorization : Users id is confirmed, Checks if user has access to that resouce.
-      - Accountability : Monitoring & Recording users actions.   EX: Logs
+  
+     - Identification : identify an user.                       EX: Username, Access card
+     - Authentication : Provide Personalised verfication        EX: Password (Or) Pin
+     - Authorization : Users id is confirmed, Checks if user has access to that resouce.
+     - Accountability : Monitoring & Recording users actions.   EX: Logs
   
 - **Security Assessment and Testing**:
 

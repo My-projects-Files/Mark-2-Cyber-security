@@ -182,3 +182,10 @@ A semi-ethical hacker, also known as a gray hat hacker or independent security r
 Unethical hackers, also known as black hat hackers, are individuals or groups who use their technical skills to gain unauthorized access to systems for personal gain, disruption, theft, or espionage.
 
   **Goals** : They operate illegally and with malicious intent, unlike ethical or gray hat hackers.
+
+## Common strategies used to manage risks:
+
+- **Acceptance** : Accepting a risk to avoid disrupting business continuity.
+- **Avoidince** : Creating a plan to avoid risk altogether.
+- **Transference** : Transferring risk to a third part to manage.
+- **Mitigation** : Lessening the impact of an known risk.

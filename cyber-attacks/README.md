@@ -71,7 +71,9 @@ Some of the most common types of malware attacks today include:
 
 - **Worms**: Malware that can duplicate and spread itself across systems on its own. In contrast to a virus, a worm does not need to be downloaded by a user. Instead, it self-replicates and spreads from an already infected computer to other devices on the same network.
 
-- **Ransomware**: A malicious attack where threat actors encrypt an organization's data and demand payment to restore access. 
+- **Ransomware**: A malicious attack where threat actors encrypt an organization's data and demand payment to restore access. Once deployed, it can freeze network system, leave devices unusable, and encrypt, (or) lock confidential data.
+
+  Note: When ransome negotiations occure (or) data is leaked by threat actors, these events can occure through dark web.
 
 - **Spyware**: Malware that’s used to gather and sell information without consent. Spyware can be used to access devices. This allows threat actors to collect personal data, such as private emails, texts, voice and image recordings, and locations.
 

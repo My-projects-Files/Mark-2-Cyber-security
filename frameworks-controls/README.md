@@ -68,6 +68,27 @@ A detailed, mandatory framework (especially for U.S. federal agencies) focused o
 
 **Purpose** : To help secure information systems by integrating cybersecurity, privacy, and risk management activities into the system development life cycle (SDLC).
 
+There are seven steps in RMF
+ - prepare
+ - categorize
+ - select
+ - implement
+ - assets
+ - authorize
+ - monitor
+
+ **Prepare** : Activities that are necessary to manage ecurity and privacy risks before a breach occurs.
+ 
+ **Categorize** : It is used to develop risk management processes and tasks.
+
+ **Implement** : It is used to implement security and privacy plan for the organization.
+
+ **Assets** : determine if establised controls are implemented correctly.
+
+ **Authorized** : Being accountable for the security and privacy risks that may exist in an organisation.
+
+ **Monitor** : Be aware of how systems are operating.
+ 
 ## International Organization for Standardization (ISO) :
 
 ISO was created to establish international standards related to technology, manifactoring, and management across borders. it help organisations improve their processes and procedure for staff retention, planning, waste and services.

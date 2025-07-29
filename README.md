@@ -60,3 +60,9 @@ Types of Risks:
   - **Maintains & improves business productivity**
   - **Reduces Expenses**
   - **Maintaining brandtrust**
+ 
+  ## Key impacts of threats, risks, & Vulnerabilitys :
+
+  - **financial impact** : Interupted production & Service, Cost to correct the issue, fines if assets compromised.
+  - **identity theft** : orgs must decide whether to share private customer, employee, & outside vender data & for how long. Storing any type of sensitive data presents a risk to the organisation.
+        EX: PII , SPII , etc

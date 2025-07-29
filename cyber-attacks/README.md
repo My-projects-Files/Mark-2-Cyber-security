@@ -71,7 +71,9 @@ Some of the most common types of malware attacks today include:
 
 - **Worms**: Malware that can duplicate and spread itself across systems on its own. In contrast to a virus, a worm does not need to be downloaded by a user. Instead, it self-replicates and spreads from an already infected computer to other devices on the same network.
 
-- **Ransomware**: A malicious attack where threat actors encrypt an organization's data and demand payment to restore access. 
+- **Ransomware**: A malicious attack where threat actors encrypt an organization's data and demand payment to restore access. Once deployed, it can freeze network system, leave devices unusable, and encrypt, (or) lock confidential data.
+
+  Note: When ransome negotiations occure (or) data is leaked by threat actors, these events can occure through dark web.
 
 - **Spyware**: Malware that’s used to gather and sell information without consent. Spyware can be used to access devices. This allows threat actors to collect personal data, such as private emails, texts, voice and image recordings, and locations.
 
@@ -182,3 +184,10 @@ A semi-ethical hacker, also known as a gray hat hacker or independent security r
 Unethical hackers, also known as black hat hackers, are individuals or groups who use their technical skills to gain unauthorized access to systems for personal gain, disruption, theft, or espionage.
 
   **Goals** : They operate illegally and with malicious intent, unlike ethical or gray hat hackers.
+
+## Common strategies used to manage risks:
+
+- **Acceptance** : Accepting a risk to avoid disrupting business continuity.
+- **Avoidince** : Creating a plan to avoid risk altogether.
+- **Transference** : Transferring risk to a third part to manage.
+- **Mitigation** : Lessening the impact of an known risk.

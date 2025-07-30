@@ -32,6 +32,13 @@ Security controls are safeguards or countermeasures put in place to detect, prev
 
 EX: If an organisation has all its employees to complete a training as part of complicane. As an analyst we may use a tool to auto assign and track which employees completed the tasks.
 
+### Three Common Type of Controls:
+
+- **Encryption** : The Process of Converting data from a  readable format to an encoded format. it is used to ensure confidentiality of sensitive data, such as customers account information (or) social security number.
+- **Authentication** : It is the process of verifying, who someone (or) something is. A real-world example of authenthication is logging into a website with your username & Password.
+  EX: MFA, Fingerprint, biometric
+- **Authorization** : The Concept of granting access to specific resources within a system.
+  
 **Asset**: An item perceived as having value to an organisation.
 
 ## CIA Triad - The Foundation of Information Security
@@ -98,9 +105,6 @@ ISO was created to establish international standards related to technology, mani
 It is an international security standard meant to ensure that organisation store, accepts, processes and transmits credit card information can only be done in secure environment.
 
 **Purpose** : PCI DSS Objective is to reduce credit card fraud.
-
-
-
 
   
 

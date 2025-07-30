@@ -69,6 +69,32 @@ A voluntary framework that helps organizations manage and reduce cybersecurity r
 
 **Purpose** : To identify, protect, detect, respond to, and recover from cyber threats.
 
+### The CSF consists of 6 Core Functions
+
+- Govern
+- Identify
+- Protect
+- Detect
+- Respond
+- Recover
+
+**Goven**: Its about establishing and maintaining the structures and processes needed to Effectively manages cybersecurity risk.
+
+**Identify** : The management of cybersecurity risk and its effect on an organizations people and assets.
+
+**Protect** : The strategy used to protect an organisation through the implementation of policies, procedures, training and tools that help mitigate cyber security threats.
+
+**Detect** : Identifying potential security incidents and improved monitoring capabilities to increase the speed and efficiency of detections.
+
+**Respond** : Making sure that the proper procedures are used to contain, neutralize, and analyze security incidents, and implement improvements to the security process.
+
+**Recover** : The Process of returning affected systems back to normal operation.
+
+
+## NIST S.P.800-53:
+
+A unified framework from protecting the security of information systems within the federal government.
+
 ### NIST Risk Management framework (RMF):
 
 A detailed, mandatory framework (especially for U.S. federal agencies) focused on the full lifecycle of managing system security and risk — from categorization to ongoing monitoring.
@@ -107,5 +133,30 @@ It is an international security standard meant to ensure that organisation store
 **Purpose** : PCI DSS Objective is to reduce credit card fraud.
 
   
+## OWASP Security Principles:
 
+- **Minimize Attack urface area** :  It includes all the potential vulnerabilities that a threat actor could exploit, like attack vectors.
+   - Attack Vector : The pathway attacker use to penetrate security defenses.
+
+       EX: Phishing emails & Weak passwords.
+   
+   - To minimise the attack Surface & avoid incidents from thi type of vectors, security teams might disable software features, restrict who can access assets (or) establish more complex password requirements.
+
+- **Principle of least Privilege** :  Users get least amount of access to perform everyday tasks. it is to reduce the amount of damage a security breach could cause.
+
+- **Defense in depth** : It means an org should have multiple security controls that address risks and threats in different ways.
+
+   EX: MFA, Firewalls, intrusion detection system, and Permission settings.
+
+- **Separation of duties** : Which can be used to prevent individuals from carrying out fraudulent (or) illegal activities.
+    - This principle means that no one should be given so many privileges that they can misuse the system.
+
+      EX: The person in a company who signs the paychecks shouldnt also be the same person who prepares them.
+
+- **Keep security simple** : when implementing security, unnecessarily complicating solutions should be avoided because they can become unmanageable.
+   - The more complex hte security controls are , the harder it is for people to work collaboratively.
+
+- **Fix Security issues correctly** : Teck is a great tool, but can also present challenges, when a security inc occures, we are expected to identify the root cause quickly. then its important to correct any identified vulnerabilities & Conduct test to ensure that repairs are successful.
+
+  Ex: A weak password to access an orgs wifi, as it could lead to a brach. To fix this issue, stricter password policies could be put in place.
   

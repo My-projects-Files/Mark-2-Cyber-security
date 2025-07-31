@@ -160,3 +160,12 @@ It is an international security standard meant to ensure that organisation store
 
   Ex: A weak password to access an orgs wifi, as it could lead to a brach. To fix this issue, stricter password policies could be put in place.
   
+### Four Additional OWASP Security
+- **Establish security defaults** : it means that optimal security state of an application is also its default state for users.
+  
+- **Fail security** : it means that when a control fails (or) stops, it should do so by defaulting to its most secure option.
+   EX: Firewall failure --> it should close all connections & block all new ones.
+
+- **Don't trust services** : Many Organisation works with third party partners. so the organisation shouldn't explicitly trust that their partners systems are secure.
+
+- **Avoid security by obscurity** :The Security of key systems should not rely on keeping details hidden.

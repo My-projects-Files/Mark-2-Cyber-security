@@ -15,3 +15,61 @@ It is a group of connected devices like phones, PC, Laptop etc. This devices can
 **Hub** : A network device that broadcasts information to every device on the network.
 
 **Switch** : A device that makes connection between specific devices on a network by sending and receiving data between them.
+
+**Router** : A network device that connects multiple networks togethers.
+
+**Modern** : A devices that Connets your router to the internet and brings internet access to the LAN.
+
+**Virtualization tools** : Pieces of software that perform network opeations.
+
+Webservice -> Moderm -> Firewall -> Router -> Switch -> Laptop
+
+**Cloud Computing** : The Practice of using remote services applications, and network services that are hosted on the internet instead of an local physical devices.
+
+**Cloud Network** : A Collection of service (or) computers that stores resources and data in remote data centers that can be accessed via the internet.
+
+**Cloud Service Providers** : They office cloud computing to maintain applications 
+
+  EX : On-demand Storage, Processing Power, Analytics
+
+  They Provide three main categories of services.  
+  - Software as a services (SAAS)
+  - Infrastruction as a service (IAAS)
+  - Platform as a Service (PAAS)
+
+**Date Packet** : A Basic unit of information that travels from one devices to another within a network. Data packets includes instruction that tell the receiving devices what to do with the information. these instruction come in the form of a port number.  
+  
+  The data packet consists of
+   
+    |Header|_____Body_____|Footer|
+
+Header --> IP address/MAC address/Protocol Number 
+Body --> Message
+Footer --> Indicates that message is Finished 
+
+The Movement of data packets across a network can provide an indication how well the network is performing.
+        
+        Network performance can be mensured by bandwidth
+
+**Band Width** : The amount of data a device receives every second. We can calculate bandwidth by dividing the quantity of data by the time in sec.
+
+**Speed** : The rate at which data packets are received (or) downloaded. We need to check for both Speed & Bandwidth, because if either are irregular, it could mean an attack.
+
+**Package Sniffing** : The Practice of capturing and inspecting data packets across a network.
+
+## TCP/IP Module (Transmission control protocol / Interent protocol) 
+
+TCP/IP is a standard model used for network communication.
+
+**TCP(Transmission control protocol)** : An internet communication Protocol that allows two devices to form a connection and stream data.
+
+**IP(Interent Protocol)** : A set of standards used for routing and addressing data pockets as they travel between devices on a network.
+
+**Port** : A softwars based location that organizes the sending and receiving of data between devices on a network. Port number computer to split the network traffic & Prioritize the operations they will perform with the data.
+
+Common Port are
+        
+        Port 25 --> Email
+        Port 443 --> Secure internet communication
+        Port 20 --> Large file Transfers
+

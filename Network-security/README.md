@@ -85,3 +85,58 @@ Layers of the TCP/IP Model
   - Application Layer
 
 **Network Access Layer** : It deals with creation of data packets and their transmission across a network. This includes hardware devices connected to physical cables & Switches that direct data to its destination.
+
+**Internet Layer** : It is where ip adress are attached to data packets to indicate the location of the sender and receiver. It is also focuses on how network connect to each outher.
+
+  EX : data packets containing info that determines whether they stay on the LAN (or) will be send to a remote network.
+
+**Transport Layer** : It includes Protocols to control the flow of traffic across a network. these protocols permit (or) Deny communication with other devices and include info about the status of the connection.
+
+**Application Layer** : Protocols determine how the data packets will interact with receiving devices. Functions that organized here includes file transfers and email services.
+
+## The OSI Model :
+
+It is the Standardized concept that describes the seven layers computers used to communicate and send data over the network.
+
+            |_____ Application Layer___|
+            |_____Presentation Layer___|
+            |_____Session Layer________|
+            |_____Transport Layer______|
+            |_____Network Layer________|
+            |_____Data Link Layer______|
+            |_____Physical Layer_______|
+
+## Interent Protocol (IP) address :
+
+A Unique string of Characters that identifies the locaion of a device on the interent. Each device has an unique IP address.
+
+There are of two types
+  - IP Version 4 (IP V4)
+  - IP Version 6 (IP V6)
+
+### MAC address :
+A unique alpanumeric identifier that is assigned to each physical device on the netwwork. MAC address tables are like a address book that the swith used to direct data packets to the appropriate device.
+
+    EX :  MAC Address         Location on port
+          0030c1-7fec40        A3
+          0060b0-17de5b        A4
+
+## Network Protocoles
+
+A set of rules used by two (or) more devices on a network to describe the order of delivery and the strecture of the data.
+
+### TCP Handshake:
+
+TCP Versifies the connected devices before allowing any further communication to take place. This is called TCP Handshake. Once communication is established using a TCP handshake, a request is made to the network. the destination services will respond to that request and send data packets back.
+
+**Address Resolution Protocol(ARP)** : A network protocol used to determine the MAC address of the next router (or) device on the path.
+
+**HTTPS (Hyper text transfer Protocol secure)** : A network Protocol that provides a secure method of cmmunication between clients and website servers.
+
+**DNS (Domain name service)** : A network protocol that translates internet dommain names into IP address.
+
+**IEEE 802.11 (Institute of electrical and electronics engineers)** : It can also be called WIFI, A set of standards thet define communication for wireless LANs.\
+
+**WIFI Protected Access (WPA)** : A Wireless Security Protocol for devices to connect to the interent.
+
+**Wired Equivalent Privacy (WEP)** : It is a wireless security protocol designed to provide users with some level of privacy on wireless network as they have on wired.

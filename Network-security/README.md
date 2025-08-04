@@ -73,3 +73,15 @@ Common Port are
         Port 443 --> Secure internet communication
         Port 20 --> Large file Transfers
 
+## TCP/IP Model
+
+It is a Framework used to visualize. how data is organized and transmitted across the network.
+
+Layers of the TCP/IP Model
+  
+  - Network Access Layer
+  - Internet Layer
+  - Transport Layer
+  - Application Layer
+
+**Network Access Layer** : It deals with creation of data packets and their transmission across a network. This includes hardware devices connected to physical cables & Switches that direct data to its destination.

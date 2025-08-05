@@ -191,3 +191,36 @@ Unethical hackers, also known as black hat hackers, are individuals or groups wh
 - **Avoidince** : Creating a plan to avoid risk altogether.
 - **Transference** : Transferring risk to a third part to manage.
 - **Mitigation** : Lessening the impact of an known risk.
+
+###  Common network intrusion attacks
+
+  - Malware
+  - Spoofing
+  - Packet Sniffing
+  - Packet flooding
+
+### Attacks can harm an organization by
+
+  - Leaking valuable (or) Confidential information
+  - Damage an organizations reputation
+  - Impacting customer retention
+  - Costing money and time
+
+**Backdoor Attacks** : A backdoor attack is another type of attack you will need to be aware of as a security analysts. in cybersecurity, backdoors are weaknesses intentionally left by programmers (or) system and network administrators that bypass normal access control machanisms. They are intended to help programmers conduct troubleshooting (or) administrative tasts. however they can also be installed by attackes.
+
+**Denial of Service Attack (DOS)** : It is an attack that target a network (or) server and floods it with network traffic. objective is to disrupt normal business operations by overloading an organizations network.
+
+**Distributed Denial of Service Attack (DDOS)** : A Type of denial of service attack that uses multiple devices (or) servers in different locations to flood the target network with unwanted traffic.
+
+## Common network level DOS Attack :
+
+**Synchronize (SYN) Flood attack** : A type of DOS attack that simulates a TCP Connection and floods a server with SYN Packets. To establish a TCP connection from a device to a server, the device sends (SYN) Packets next the server sends (SYN/ACK) to the device. 
+
+Then once the device sends (ACK) to the server TCP connection is established. Threat actors take advantage by flooding a server with (SYN) Packets. if the packets are larger then number of available ports on the server, then server will become unavailable.
+
+**Internet Control Message Protocol(ICMP) Flood** :
+ICMP is An internet Protocol used by devices to tell each other about data transmission errors across the network.
+
+A Type of DOS attack performed by an attacker repeatedly sending ICMP Packets to a network server. This forces the server to send an ICMP Packet. This eventually uses up all the bandwidth for incoming and outgoing traffic and causes the server to crash.
+
+**Ping of Death** : A type of DOS attack caused when a hacker pings a system by sending in an oversized ICMP packet that is bigger than 64KB.

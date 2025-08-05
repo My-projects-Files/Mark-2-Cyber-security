@@ -140,3 +140,70 @@ TCP Versifies the connected devices before allowing any further communication to
 **WIFI Protected Access (WPA)** : A Wireless Security Protocol for devices to connect to the interent.
 
 **Wired Equivalent Privacy (WEP)** : It is a wireless security protocol designed to provide users with some level of privacy on wireless network as they have on wired.
+
+## Firewall
+
+It is a network security device that monitors traffic to and from your network. it either allows (or) blocks traffic based on defined set of security rules.
+
+**Port filtering** : A firewall funtion that blocks (or) allows certain port number to limit unwanted communication.
+
+### Type of firewall
+
+  - **Hardware firewall** : Most basic way to defend againt threats to a network.
+  
+  - **Software firewall** : It acts same as hardware firewall but its a software program installed in PC (or) Server.
+  
+  - **Cloud-based firewall** : Software firewall that are hosted by a cloud service provider.
+
+### State of a firewall
+
+**Stateful** : A class of firewall that keeps track of information passing through it and proactively filters out threats. It analyzes network traffic for characteristics and behavior that appear suspicious and stops them from entering the network.
+
+**Sateless** : A class of firewall that operates based on predefined rules and does not keep track of information from data packets. it only acks according to preconfigured rules set by the firewall administrator. this rules tells the device what to accept & Reject. It dont store analyzed info and it also dont discover suspicious trends like a stateful firewall does, so stateless firewalls are less secure, when compared to the stateful firewall.
+
+## Next Generation Firewall (NGFW) :
+It Provides more security than a stateful firewall. it performs a stateful inspection of incoming and outgoing traffic.
+
+It also Performs
+    - Deep packet inspection
+    - Intrusion protection
+    - Threat Intelligence
+
+## Virtual Private Network (VPN) :
+
+A Network security serrvice that changes your public ip address and hides your virtual location, so that you can keep your data private when you are using a public network like the internet. it provides encapsulation on the data in transite.
+
+**Encapsulation** : A process performed by a VPN service that Protects your data by wrapping sensitive data in other data packets 
+
+**Security Zone** : A segment of a network that protects the internal network from the internet. they are part of a security technique called network segmentation.
+
+**Network Segmentation** : A security technique that divides the network into segments. each segments has its own access permissions and security rules.
+
+### Network Classification :
+
+They are of two types
+    - Uncontrolled Zone
+    - Controlled Zone
+
+**Uncontrolled Zone** : Any network outside of the organizations control like the internet.
+
+**Controlled Zone** : A subnet that protects the internet network from the uncontrolled zone.
+
+### Areas in the Controlled Zone
+
+  - Demilitarized Zone (DMZ) --> Nnetwork perimeter to internet
+  - Internal network  --> Private servers & data
+  - Restricted Zone --> highly confidential information
+
+## Proxy Servers:
+
+A server that fulfills the requests of a client by forwarding them on to other servers. it is a public ip that is different from the rest of private network. this hides the private networks ip address.
+
+### Different types of proxy server
+
+  - Forward proxy Server
+  - Reverse Proxy Server
+
+**Forward Proxy Server** : Regulates and restricts a persons access to the internet.
+
+**Reeverse Proxy Server** : Regulates and restricts the internets access to an internal server.

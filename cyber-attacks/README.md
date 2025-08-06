@@ -224,3 +224,37 @@ ICMP is An internet Protocol used by devices to tell each other about data trans
 A Type of DOS attack performed by an attacker repeatedly sending ICMP Packets to a network server. This forces the server to send an ICMP Packet. This eventually uses up all the bandwidth for incoming and outgoing traffic and causes the server to crash.
 
 **Ping of Death** : A type of DOS attack caused when a hacker pings a system by sending in an oversized ICMP packet that is bigger than 64KB.
+
+## Packet Sniffing
+It is a practice of using software tools to observe data as it moves across a network. As an analyst, we may use packet sniffing to analyze and capture packets when investing ongoing incidents (or) debugging network issues.
+
+Type of packet sniffing
+  - Passive packet sniffing
+  - Active packet sniffing
+    
+**Passive Packet Sniffing** : A type of attack where data packets are read in transit.
+
+**Active Packet Sniffing** : A type of attack where data packets are manipulated in transit.
+
+We can prevent packet sniffing using
+    - VPN
+    - Only access website with https
+    - Avoid using unprotected wifi (like inpublic places)
+
+## IP Spoofing :
+A network attack performed when an attacker changes the sourcec IP of a data packet to implersonate an authorized system and gain access to a network.
+
+Common IP Spoofing attacks
+  - On-path attack
+  - Replay attack
+  - Smurf attack
+
+**On-path attack** : An attack where a malicious actor places themselves in the middle of an authorized connection and intercepts (or) alters the data in transit.
+
+**Replay attack** : A network attack performed when a malicious actor intercepts a data packet in transit and delays it (or) repeats it at another time.
+
+**Smurf attack** : A network attack performed when an attacker sniffs an authorized users IP address and floods it with packets.
+
+Steps to prevents IP Spoofing
+  - Encript the data in transit
+  - Configure Firewall

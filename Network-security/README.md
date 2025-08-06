@@ -207,3 +207,66 @@ A server that fulfills the requests of a client by forwarding them on to other s
 **Forward Proxy Server** : Regulates and restricts a persons access to the internet.
 
 **Reeverse Proxy Server** : Regulates and restricts the internets access to an internal server.
+
+## Security Hardening :
+The Process of strengthening a system to reduce its Vulnerability and attack surface.
+
+**Attack Surface** : All the potential vulnerabilities that a threat actor could exploit are called Attack Surface.
+
+Security hardening can be conducted on any device (or) system that can be compromised such as
+
+  - Hardware
+  - Operating system (OS)
+  - Application
+  - Computer Network
+  - Data bases
+
+Physical security is also a part of security hardening this includes security a space with security cameras and guards.
+
+Common types of hardening procedures include
+  - Software updates (Patches)
+  - Device application config changes
+
+EX: Security config changes is requiring longer (or) More frequent Password changes. Config Check is updating the encryption standards for data that is stored in a database.
+
+Other example of security hardening includes removing (or) Disabling unused applications and services, disabiling unusable ports and reducing access permissions across devices in a network. we can also performing regular penetration testing.
+
+## Penetration testing
+A simulated attack that helps identify vulnerabilities in system, networks, websites, applications, and processes.
+
+### Operating System (OS) :
+The interface between computer hardware and the user. it is the first program loaded when a computer turns on. it acts as an intermediary between software application and the computer hardware.
+
+### OS Hardening Task :
+Some of OS hardening tasks performed at a regular interval, such as patch installation, also called patch updates.
+
+### Patch updates :
+A software and OS update that addresses security vulnerablilities within a program (or) product. the newly updated OS should be added to the baseline configuration, also called the baseline image.
+
+### Baseline Configuration (baseline image) :
+A documented set of specifications within a system that is used as a basis for future builds, releases,and updates. it may contain a firewall rule with a list of allowed and disallowed network ports for example.
+
+### Hardware and Software disposal:
+This ensures that all old hardware is properly wiped and disposed of. it also a good idea to delete any unused software application, since some popular programming language have known vulnerabilities.
+
+### Strong Password:
+Strong password policies require that passwords follow specific rules.
+
+EX: Org may set password policy that requires a minimum eight characters, a capital, a number, and a symbol.
+
+### Multi-factor authentication (MFA) :
+A security measure which requires a used to Verify their identity in two (or) more ways to access a system (or) network.
+
+Categories of multi-factor identification
+ 
+  - Something you know
+  - Something you have
+  - Something unique about you
+
+## Brute Force Attacks:
+It is a trial and error process of discovering private information. there are different type of brute force.
+   
+  - Simple brute force attacks
+  - Dictionary attacks
+  
+

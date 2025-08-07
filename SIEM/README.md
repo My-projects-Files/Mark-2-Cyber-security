@@ -51,3 +51,12 @@ The Common log sources are
 
 **Service logs** : it is a record of events related to services, such as website, email (or) file shared. includes actions such as login, password, and username requests.
 
+## Playbook :
+It is a manual that provides details about any operational action. They also clarity what tools should be used in response to a security incident. Playbooks ensure that People follow a consistent list of actions in a prescribed way. Regardless of who is working on the case different types of playbook are used.
+
+These includes playbook for incident response security alerts, Team-specific, and product specific purposes.
+
+## Incident response playbooks:
+
+An Organizations quick attempt to identify an attack , contain the damage, and correct the effects of a security breach. It is a guide with 6 phases used to help mitigate & manage Security incidents from beginning to end.
+

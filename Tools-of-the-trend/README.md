@@ -19,3 +19,43 @@ It is a Virtual version of a physical computer. There are the examples of virtua
 ### Virtualization :
 
 It is the process of using software to create virtual representation of various physical machines. Virtual system dont use dedicated physical hardware instead, they use software - defined versions of the physical hardware. we can run multiple vms using the physical hardware of a single PC. This involves dividing the resources of the host PC.
+
+Benefits of VMS
+
+  - Security
+  - Efficiency
+
+Other form of Virtualization, some dont use OS.
+  
+  - Multiple Virtual servers from a single physical server
+  - Virtual network
+
+## User Interface
+
+A Program that allows the user to control the funtions of the operating system
+
+ - Graphical user interface
+ - Command line interface
+
+**Graphical User Interface (GUI)** : A User interface that uses icons on the screen to manage different tasks on the computer.
+
+Basic GUI Components are
+
+  - Start Menu
+  - Task bar
+  - Desktop with icons and shortcuts.
+
+**Command line interface (CLI)** : A Text based user interface that uses commands to interact with the computer.
+
+
+### Linux
+
+It is an open-source Operating system. Some componets of linux.
+
+  - User ---> The Person interacting with a computer
+  - Application ---> A program that performs a specifi task.
+  - Shell
+  - Filesystem hierarchy standard
+  - kernal
+  - hardware
+    

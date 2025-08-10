@@ -53,9 +53,68 @@ Basic GUI Components are
 It is an open-source Operating system. Some componets of linux.
 
   - User ---> The Person interacting with a computer
+  
   - Application ---> A program that performs a specifi task.
-  - Shell
-  - Filesystem hierarchy standard
-  - kernal
-  - hardware
+  
+  - Shell ---> The command line interpreter, it process commands & output the results
+  
+  - Filesystem hierarchy standard (FHS) ---> The command of the linux OS that organize data. it is how data is stored in a system, its a way to organize data. so        that it can be found when that data is accessed by the system.
+  
+  - Kernal ---> The component of teh linux OS that manages Processes and memory. it uses drivers to enable applications to execute tasks.
     
+  - Hardware ---> The Physical components of a computer.
+
+
+**Pheripheral Devices** :There are hardware components that are attached and controlled by the computer system. They are not Core components needed to run the computer system.
+
+## Distributions :
+The different Versions of linux, they are also called distribution (or) flavors of linux. They include linux kernal, utilities, a package manager system, and an installer. some of the parent distributions include.
+
+  - Red Hat Enterprise linux (CentOS)
+  - Slackware (SUSE)
+  - Debian (Ubuntu and KALI linux)
+
+## Kali Linux :
+It is a trademark of offensive security and is debian derived. This open Source distro was made specifically with penetration testing and digital forensics in mind.
+
+### Penetration Test : 
+A simulated attack that helps identify vulnerabilities in system, networks, websites, applications, and processes.
+
+Penetration testing tools in KALI linux
+
+  - Meta Sloit ---> Used to look and exploit vulnerabilities in Machines
+  - Burp Suite ---> Used to help test weakness in webapps
+  - John the Ripper ---> is used against passwords
+
+### Digital Forensics :
+The Practice of collecting and analyzing data to determine what has happened after an attack. digital forensics tools in KALI linux.
+
+   - tcpdump ---> Command line Packet analyzer used to capture Network traffic.
+   - Wireshark ---> It is a GUI that can be used to analyze live & Capture Network traffic.
+   - Autopsy ---> It is a forensics tool used to analyze hard drives & Smart phones.
+
+### Parrot : 
+It is an Open-source distribution that is Commonly used for security. similar to KALI, Parrot comes with Pre-installed tools related to pen testing & digital forensiscs.
+
+### Package managers for installing applications
+A Package is a piece of software that can abe combined with other packages to form an application.
+
+**Package manager** : It is a tool that helps users install, manage, and remove packages (or) applications. Linux users multiple package managers.
+
+Types of package managers
+
+   - RPM
+   - dpkg
+   - apt
+   - yum
+
+**Shell** : It is a command line interpreter, it helps you communicate with the operating system through the command line.
+
+**Standard input** : It contains information received by the OS via the command line.
+
+**Standard Output** : Information returned by the OS through the shell.
+      
+      EX :   echo Hello  ---> Hello
+
+**Standard Error** : Error messages returned by the OS through the shell.
+

@@ -55,9 +55,28 @@ The Most common queries are
         EX: SELECT employee-id, device-id
             FROM employees
             ORDER BY employee-id;
-    
+  - DESC (Sorting in descending order) ---> The DESC keywork is for "deconding" and tells SQL to sort numbers from largest to smallets, (OR) alphabetically from Z to A.
+
+        EX: SELECT employee-id, device-id
+            FROM employees
+            ORDER BY employee-id DESC;
+- Sorting based on multiple columns ---> We can also choose mutiple columns to ordered. The rows will be sorted for the employee_id. then if multiple values in this row are same. in that case the device_id values will be sourted.
+
+        EX: SELECT employee-id, device-id
+            FROM employees
+            ORDER BY employee-id , device_id;
+
+### Filter:
+The Filtering is one of the most powerful feature of SQL. it is the process of selecting data that match a certain condition.
+
+### Operator:
+It is a symbol (or) keyword that represents an Operation.
+
+      EX: country = 'USA'
+      
 **Syntax** : The rules that determine what is correctly structured in a computing language. To get the full table.
 
       SELECT * FROM employees;
-O
+
+  
       

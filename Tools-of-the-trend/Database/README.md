@@ -65,7 +65,22 @@ The Most common queries are
         EX: SELECT employee-id, device-id
             FROM employees
             ORDER BY employee-id , device_id;
+- WHERE ---> It indicates the condition for a filter.
 
+        # To Get the colums that present in USA. we can use
+  
+        EX: SELECT *
+            FROM employees
+            WHERE office = 'USA';
+
+- LIKE ---> It is an operator used with "WHERE" to search for pattern in a column.
+
+        # here we are looking for values that starts with EAST
+  
+        EX: SELECT *
+            FROM employees
+            WHERE office LIKE 'EAST%'; 
+- 
 ### Filter:
 The Filtering is one of the most powerful feature of SQL. it is the process of selecting data that match a certain condition.
 
@@ -78,5 +93,24 @@ It is a symbol (or) keyword that represents an Operation.
 
       SELECT * FROM employees;
 
-  
+**Patterns** : We can search the columns with proper patterns.
+
+        a%   ---> art, a, apple
+        a_   ---> as, an
+        a_ _ ---> ant, add
+        %a   ---> Pizza, Tina
+        _a   ---> ma, la
+        %a%  ---> again, back
+        _a_  ---> car, ban
+
+The Three common data types found in databases.
+    
+  - String
+  - Numberic
+  - data and time
       
+**String** : It is a data Consisting of an ordered sequence of characters. This can be numbers, letters, and symbols.
+
+      username = analyst10
+
+**Numberic data** : it is the data consisting of numbers, such as count of log in attempts. unlike string ,mathematical operations can be performed on number data.

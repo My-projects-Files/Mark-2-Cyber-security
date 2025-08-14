@@ -196,3 +196,5 @@ it is a column in one table that refers to the primary key in another table. It 
 
 Similar to inner join, outer join combine two tables together
 
+### Aggregate funtions
+These are funtions that perform a calculationover multiple data 

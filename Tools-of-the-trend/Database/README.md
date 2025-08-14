@@ -80,7 +80,39 @@ The Most common queries are
         EX: SELECT *
             FROM employees
             WHERE office LIKE 'EAST%'; 
-- 
+- BETWEEN ---> An operator that filters for numbers (or) dates within a range.
+
+        EX: SELECT *
+            FROM employees
+            WHERE Patch-date BETWEEN '2021-03-01' AND '2021-09-01';
+
+## Logical Operators
+AND, OR, and NOT allow us to filter our queries to return the Specific information that will help us.
+    
+- AND ---> It specifices that both conditions must be met simultaneously. in AND operator we should meet both the conditions then only the value is displayed.
+
+        EX: SELECT *
+            FROM machines
+            WHERE operating-sys = 'OS1' AND email = 'Email 1';
+  
+- OR ---> it specifies that either condition can be met, The values can meet first condition (OR) second condition are it can work if both conditions meet.
+
+        EX: SELECT *
+            FROM machines
+            WHERE operating-sys = 'OS1' OR operating-sys = 'OS3';
+  
+- NOT ---> It negates a condition. it looks for an entry that does not match the condition we specified.
+
+        EX: SELECT *
+            FROM machines
+            WHERE NOT operating-sys = 'OS3';
+
+**Combining logical operators** : logical operators can be combined in filter. If we want customers in other contries apart from canada & USA.
+
+        SELECT firstname, lastnumber, email,country
+        FROM customers
+        WHERE NOT country = 'canada' AND NOT contry = 'USA';
+
 ### Filter:
 The Filtering is one of the most powerful feature of SQL. it is the process of selecting data that match a certain condition.
 
@@ -114,3 +146,53 @@ The Three common data types found in databases.
       username = analyst10
 
 **Numberic data** : it is the data consisting of numbers, such as count of log in attempts. unlike string ,mathematical operations can be performed on number data.
+
+**Date and Time data** : Data representing a data and /or time.
+
+## Common Operators for working with numeric & data and time data
+  
+    Operation:  =, > ,< , < >, >=, <=
+
+    EX: SELECT *
+        FROM log_in
+        WHERE time > '18:00';
+
+## JOIN 
+This helps when we need information from two different tables in a database. since we will be working with two tables, we need a way to tell SQL what table we picking. To join two tables we need to identify the shared common column between those two tables. Now we can connect them using a primary key and foreign key setup.
+          
+          <Table_name>.<column_name>
+
+        Ex: employees.employee_id & machines.employee_id
+
+**NULL values** : Thsi can be values that are not assigned. it represents a missing value due to any reason.
+
+**Primary Key**: 
+It is a column in a database table that uniquely identifies each row in that table.
+
+**Characteristics**
+  
+  - **Unique** : No two rows can have same values
+  - **Not Null** : The values can not be Null
+  - **Immutable** : The Values of the key cannot change
+
+**Foreign Key**:
+it is a column in one table that refers to the primary key in another table. It is used to link two tables together.
+
+### Type of Join
+
+- **INNER JOIN** : This returns rows matching on a specified column that exists in more than one table. With this common key pairs will be collected and the data in those columns will be combined into a single table.
+
+      EX: SELECT username, office, OS
+          FROM emp
+          INNER JOIN mac ON emp.emp_id = mac.emp_id;
+  
+- **OUTER JOIN** : They are used to Combine rows from two (or) more tables based on a related column, and importantly , they include rows that do not have a match in the other tables.
+
+### Type of outer joints
+
+- **LEFT JOIN** : It returns all of the records of the first table, but only returns rows of the second table that match on a specified column.
+- **RIGHT JOIN** : It returns all of the records of the second table, but only returns rows from the first table that match on a specified column.
+- **FULL OUTER JOIN** : This will returns all records from both tables. if a row dont have any value for a column then it will return as null.
+
+Similar to inner join, outer join combine two tables together
+

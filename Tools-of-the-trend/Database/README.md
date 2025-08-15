@@ -197,4 +197,16 @@ it is a column in one table that refers to the primary key in another table. It 
 Similar to inner join, outer join combine two tables together
 
 ### Aggregate funtions
-These are funtions that perform a calculationover multiple data 
+These are funtions that perform a calculationover multiple data points & return the result of the calculation.Some of the aggregate funtions are
+
+  - Count  ---> Returns a number that shows number of rows from the query.
+  - AVG    ---> Returns a number that shows avg of the numeric data in column.
+  - SUM    ---> Returns a number that shows sum of numbers in a column.
+
+**Syntax**:
+
+      count --> SELECT COUNT (name) FROM Customer;
+      
+      Avg   --> SELECT AVG (name) FROM Customer;
+
+      sum   --> SELECT SUM (name) FROM customer;

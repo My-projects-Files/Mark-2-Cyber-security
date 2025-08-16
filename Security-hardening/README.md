@@ -68,14 +68,28 @@ A hypervisor abstracts the hosts hardware from the OS environment. hypervisors a
 
  Proper configureation and setup can greatly improve the security and performance of a cloud env.
 
- EX: 1) Restricting access to the admin portal
-     2) enable password management
-     3) enable file encryption
-     4) enabling threat detection for SQL database.
+ 
+     EX: 1) Restricting access to the admin portal
+         2) enable password management
+         3) enable file encryption
+         4) enabling threat detection for SQL database.
 
 ### Cryptography :
 
 It can be applied to security data that is processed and stored in a cloud env. cryptography encription is a key way to secure sensitive data. crytography uses encryption and secure key management system to provide data integrity and confidentiality.
+
+Data of any kind is kept secret using a two-step process.
+
+  1) Encryption --> To hide the information
+  2) Decryption --> To unhide the information
+
+**Algorithm** : It is a set of rules used that solve a problem.
+
+**Cipher** : it is an algorithm that encrypts information.
+
+**Cryptographic key** : A mechanism that decrypts ciphertext.
+
+**Brute force attack** : A trail & error process of discovering private information.
 
 ### Cryptographic Erasure :
 
@@ -84,3 +98,13 @@ It is a menthod of erasing the encryption key for the encrypted data. when destr
 ### Crypto-shredding :
 
 It is a new technique where the cryptographic keys used for decryption the data are destroyed. this makes data undecipherable. All copies of the key need to be destroyed so no one has any opportunity to access the data in the future.
+
+## Public Key Information (PKI) :
+
+It is an encryption framework that secures the exchanges of information online. The PKI follows two step process.
+
+  1) Exchange of encrypted information
+       - Asymmetric encryption
+       - Symmetric encryption
+  2) Establish trust using a system of digital certificates.
+

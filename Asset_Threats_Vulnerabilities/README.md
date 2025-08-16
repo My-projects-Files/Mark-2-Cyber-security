@@ -80,7 +80,7 @@ Types of risk categories
 
 **Regulations** : It rules set by a government (or) other authority to control the way something is done.
 
-### NIST CSF Components
+## NIST CSF Components
 
 It mostly contain
 
@@ -148,7 +148,7 @@ It is an important model that security teams consider when protecting info. in g
 
 Business Store. move, and transform data using a wide range of IT system.
 
-### Information security (VS) Information Privacy:
+## Information security (VS) Information Privacy:
 
 Security & Privacy are two tearms that often get used interchangeably outside of this field.
 

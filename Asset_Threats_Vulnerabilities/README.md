@@ -73,3 +73,87 @@ Types of risk categories
   - **Policy** : It is a set of rules that reduces risk and protects information. They are the foundation of every security plan. they give everyone in and out of an organization guidance by addressing questions like, what are we protecting and why. Policies focuses on the strategic side of things by identifying the scope, objectives, and limitations of a security plan.
 
   - **Standards** : They concern how well we're protecting assets. in security, standards are refereces that inform how to set policies they create a point pf reference.
+
+- **Procedures** : It is a step by step instructions to perform a specific security task.
+
+**Compliance**: It is the process of adhering to internal standards and external regulations. At a higher level, maintaining trust, reputation, safty, and the integrity of our data are just a few reasons to be concerned about compliance.
+
+**Regulations** : It rules set by a government (or) other authority to control the way something is done.
+
+## NIST CSF Components
+
+It mostly contain
+
+  - Core
+    
+  - Tiers
+  
+  - Profiles
+
+**Core** : it is basically a simplified version of the funtions (or) duties, of a security plan. The CSF Core identifies five broad funtions.
+
+  - Identify
+   
+  - Protect
+  
+  - Detect
+  
+  - Respond
+  
+  - Recover
+
+**Tiers** : These provide security teams with a way to measure performance across each of the five funtions of the core. 
+it range from Level-1 to Level-4
+  - Level-1 (or) passive, indicates a function is reaching bare minimum standards.
+    
+  - Level-4 (or) adaptive , is an indicates a function is being performed at an exemplary standard.
+
+**Profiles** : These Provide insight into the current state of a security plan.
+
+### Security controls
+
+Safeguards designed to reduce specific security risks. Type of security controls.
+
+  - Technical
+  
+  - Operational
+   
+  - Managerial
+
+### Informational Privacy : 
+
+The Protection of unauthorized access and distribution of data . it is about right to choose. people and organizations a like deserve the right to decide when, how, and to what extent private info is shared.
+
+### Principle of least privilege:
+
+The concept of granting only the minimal access and authorization required to complete a task (or) function.
+
+### Data Owner:
+
+The Person that decides who can access, edit, use, (or) destroy their information.
+
+### Data Custodion:
+
+Anyone (or) anything thats responsible for the safe handling, transport, and storage of information.
+
+### Data Steward:
+
+The Person (Or) group that maintains and implements data governance Policies set by an organization.
+
+### Data Lifecycle :
+
+It is an important model that security teams consider when protecting info. in general, the data lifecycle hass five stages.
+
+    Collect--> Store--> Use--> Archive--> Destroy
+
+Business Store. move, and transform data using a wide range of IT system.
+
+## Information security (VS) Information Privacy:
+
+Security & Privacy are two tearms that often get used interchangeably outside of this field.
+
+**Information Security** : It refers to the protection of unauthorized access and distribution of data.
+
+**Information Privacy** : It refers to the practice of keeping data in all states away from unauthorized users.
+
+The key difference in privacy is about providing people with control over their personal info. but security is about protecting people choices & keeping their info safe from threats.

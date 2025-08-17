@@ -108,3 +108,16 @@ It is an encryption framework that secures the exchanges of information online. 
        - Symmetric encryption
   2) Establish trust using a system of digital certificates.
 
+
+**Asymmetric Encryption**: The use of a Public and Private key pair for encryption & decryption of data.
+
+**Symmetric Encryption**: The use of a single secret key to exchange information.
+
+**Digital Certification**: It is a file that verifies the identity of a Public key holder. most online info is exchange using digital certificate.
+
+Process of Obtaining a digital certificate.
+
+      |__Name, country, public key__|  -->  |__Verification__| --> |__Encryption__| --> |__ Name, Country, Public key__|
+                                                                  |__CA's PrivateKey__|        |__CA's digital sign__|
+
+

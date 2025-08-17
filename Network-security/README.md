@@ -275,3 +275,6 @@ It is a trial and error process of discovering private information. there are di
 **Dictionary attacks** : It uses a similar technique as bruteforce, in this attackers use a list of commonly used passwords and stolen credentials from previous breaches to access a system. attackers originally used a list of words from the dictionary to guess the passwords, so they are called dictionary attacks.
 
 NOTE: using brute force is tedious and time consuming process, so they are range of tools attackers use to conduct their attacks.
+
+## Rainbow tables : 
+It is a file of pre-generated hash values and their associated plain text .They like dictionaries of weak passwords.

@@ -120,4 +120,21 @@ Process of Obtaining a digital certificate.
       |__Name, country, public key__|  -->  |__Verification__| --> |__Encryption__| --> |__ Name, Country, Public key__|
                                                                   |__CA's PrivateKey__|        |__CA's digital sign__|
 
+## Hash Function:
 
+It is an algorithm that produces a code that cant be decrypted. unlike the asymmetric and symmetric algorithms, hash funtion are one-way processes that do not generate decryption keys. instead, these algorithems produce a unique identifier known as a hash value (or) digest.
+
+Data integrity relates to the accuracy and consistency of information. this is called non-repudiation. 
+
+### Non-repudiation:
+The concept that the authenticity of information can't be denied. to generate a hashing of any file in linux.
+
+      Ex: sha256sum file.txt
+
+Five funtion that make up the SHA family are  
+
+  - SHA-1
+  - SHA-224
+  - SHA-256
+  - SHA-384
+  - SHA-512 

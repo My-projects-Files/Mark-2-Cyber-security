@@ -108,4 +108,22 @@ It is the practice of monitoring the access logs of a system. these logs contain
 
   As an analyst, we may work with software development teams to ensure security practices are incorporated into the software development life cycle.
 
-  
+
+## User Provisioning :
+It is the process of creating and maintaining a users digital identity.
+
+**Granting Authorization**:
+There are three common frameworks that orgs use to handle there IAM steps.
+
+- Mandatory access control (MAC)
+- Discretionary access control (DAC)
+- Role-based Access control (RBAC)
+
+### Mandatory Access Control (MAC):
+It is the strictest of the three framework. Authorization is strict need to know basis. Access to info must be granted manually by a central authority (or) system.
+
+### Discretionary Access Control (DAC) :
+It is typically applied where a data owner decides appropriate level of access.
+
+### Role Based Access Control (RBAC) :
+It is used when authorization is determined by a users role within an organization.

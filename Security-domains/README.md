@@ -46,7 +46,50 @@
      - Authentication : Provide Personalised verfication        EX: Password (Or) Pin
      - Authorization : Users id is confirmed, Checks if user has access to that resouce.
      - Accountability : Monitoring & Recording users actions.   EX: Logs
-  
+
+### Authentication:
+They ask attempting to access information a simple question of "Who are you".
+
+Factors of authentication:
+
+   - **Knowledge** : Something the user knowns
+   - **Ownership** : Something the user possesses
+   - **Charateristic** : Something teh user is
+
+**Single sign-on(SSO)**: a technology that combines several different logins into one.
+
+**Multi-factor authentication(MFA)** : A security measure which requires a user to verifiy their identity in two (or) more ways to access a system(or) network.
+
+### Authorization:
+It is linked to the idea that access to info only lasts as long as needed.
+
+**Seperation of duties**:
+The Principle that users should not be given level of authentication that would allow them to misuse of a system. Seperating duties reduces the risk of system failures and inappropriate from users.
+
+HTTP uses what is known as basic auth.
+
+**Basic auth** : The technology used to establish a users request to access a server. it works by sending an identifier every time a user commuinicates with a webpage.
+
+**OAuth** : It is an open-standard authorization protocol that shares designated access between applications, it uses API Tokens to verify access between you and a service provider.
+
+**API token** : A small block of encrypted code that contains info about a user. these tokens contains things like the identity, site permissions, and more.
+
+### Accounting:
+
+It is the practice of monitoring the access logs of a system. these logs contain info like who accessed the system, and when they accessed it, what resource they used, anytime a user accesses a system, they initiate whats called a session.
+
+**Session** : A sequence of network HTTP basic auth requests and responses associated with the same user. Two access are trigged when the session begins.
+    
+    - Creation of a session ID
+    
+    - Exchange of session cookies between a server & users device.
+
+**Session ID** : It is a unique token that identifies a user and their device while accessing the system.
+
+**Session Cookies** : It is a token that websites user to validate a session and determine how long that session should last. cookies make websessions safer and more efficient.
+
+**Session Hijacking** : It is an attacker can impersonate a user their session token. this is called session hijacking. It is an event where attackers obtain a legitimate user's session ID.
+
 - **Security Assessment and Testing**:
 
    Conducting security control testing, collecting and analyzing data, and conducting security audits to monitor for risks, threats and vulnerabilities.

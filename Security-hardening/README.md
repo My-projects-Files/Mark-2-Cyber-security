@@ -138,3 +138,13 @@ Five funtion that make up the SHA family are
   - SHA-256
   - SHA-384
   - SHA-512 
+
+### Rainbow tables:
+It is a file of pre-generated hash values and their associated plaintext. they are like dictionaries of weak passwords
+
+### Salting:
+It is an additional safeguard that used to strengthen hash funtions. a salt is a random string of characters thats added to data before its hashed. the added char produce a more unique hash value, making salted data resilient to rainbow table attacks.
+
+      |__Password__| ---> |__Hash__| ---> |__ENC(zd#qh$md3)__|
+                          |__salt__|
+

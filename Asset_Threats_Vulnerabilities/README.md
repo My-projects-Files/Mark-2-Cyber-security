@@ -12,6 +12,8 @@ They are based on the analysis of three elements. They represents what, why, and
     
   - **Vulnerabilities** : A weakness that can be exploited by a threat.
 
+  - **Exploit** : It is a way of taking advantage of vulnerability.
+
 
 **Asset management** : The Process of tracking assets and the risks that affect them. it starts with having an assets inventory.
 
@@ -70,9 +72,9 @@ Types of risk categories
     
 ## Elements of a security plan
 
-  - **Policy** : It is a set of rules that reduces risk and protects information. They are the foundation of every security plan. they give everyone in and out of an organization guidance by addressing questions like, what are we protecting and why. Policies focuses on the strategic side of things by identifying the scope, objectives, and limitations of a security plan.
+- **Policy** : It is a set of rules that reduces risk and protects information. They are the foundation of every security plan. they give everyone in and out of an organization guidance by addressing questions like, what are we protecting and why. Policies focuses on the strategic side of things by identifying the scope, objectives, and limitations of a security plan.
 
-  - **Standards** : They concern how well we're protecting assets. in security, standards are refereces that inform how to set policies they create a point pf reference.
+- **Standards** : They concern how well we're protecting assets. in security, standards are refereces that inform how to set policies they create a point pf reference.
 
 - **Procedures** : It is a step by step instructions to perform a specific security task.
 
@@ -157,3 +159,15 @@ Security & Privacy are two tearms that often get used interchangeably outside of
 **Information Privacy** : It refers to the practice of keeping data in all states away from unauthorized users.
 
 The key difference in privacy is about providing people with control over their personal info. but security is about protecting people choices & keeping their info safe from threats.
+
+## Vulnerability management :
+
+It is the process of finding and patching vulnerabilities. it helps keep assets safe, it is a method of stoping threats before they can become a problem.
+
+It is of four step process.
+
+  - Identify vulnerabilities
+  - Consider potential exploits
+  - Prepare defense against threats
+  - evaluate those defenses
+ 

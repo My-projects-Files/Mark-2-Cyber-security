@@ -14,6 +14,8 @@ They are based on the analysis of three elements. They represents what, why, and
 
   - **Exploit** : It is a way of taking advantage of vulnerability.
 
+  - **Exposure** : It is a mistake that can be exploited by a threat.
+
 
 **Asset management** : The Process of tracking assets and the risks that affect them. it starts with having an assets inventory.
 
@@ -171,3 +173,48 @@ It is of four step process.
   - Prepare defense against threats
   - evaluate those defenses
  
+### Common CI/CD pipeline vulnerabilities:
+Some of the common vulnerabilities to be aware of
+
+  1) Insecure dependencies : Risks from third - party code.
+
+     Action --> Regularly scan & update dependencies
+     
+  2) Misconfigured permissions : Controlling Access
+
+     Action --> Implement strong access management using (RBAC)
+
+  3) Lack of automated security testing: Missing critical checks
+
+     Action --> Integrate automated security testing (SAST and DAST) into the CI/CD Pipeline.
+     
+  4) Exposed secrets : Protecting Sensitive info
+
+     Action --> Never hardcode secrets
+
+  5) Unsecured Build environment: Protecting the pipeline infra
+
+     Action --> Harden your build environments.
+
+### Building a secure CI/CD Pipeline:
+To Proactively address these vulnerabilities, a layered security approach is key.
+
+  - **Integrate security from the start** : Embrace DevSecOps
+  - **Implement strong Access Controls** : Strick policies on the least privilege
+  - **Automate Security Testing Everywhere** : Automated security scans & Test them as part of build & Deploy.
+  - **Keep dependencies updated** : Maintain inventory of third party apps & dependencies. regularly update to patch security vulnerabilities.
+  - **Secure secrets management** : Never hard code sensitive data. 
+
+## Defense in depth:
+It is a layered approach to vulnerability management that reduces risk. it is also refers to as a castle approach as it resembles the layered defenses of a castle. it can be used to protect any asset, it used in cybersecurity to protect info using a five layer design.
+
+  1) **Perimeter Layer** : This is a user authentication layer that filters external access. its funtion only allow access to trusted parterns.
+     
+  2) **Network Layer** : It closly aligned with authorization. it is made up of tech like network firewall & other.
+
+  3) **Endpoint Layer** : It refers to the devices that have access on a network. They could be devices like laptop, desktop, (or) a server.
+
+  4) **Application Layer** : Includes the interfaces that are used to interact with technology. Security here means programmed as part of app.
+
+  5) **Data Layer** : We have arrived at the critical data that must be protected, like personally identifiable information.
+

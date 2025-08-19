@@ -258,3 +258,8 @@ Common IP Spoofing attacks
 Steps to prevents IP Spoofing
   - Encript the data in transit
   - Configure Firewall
+
+## Zero-day exploit:
+
+It is an exploit that was previously unknown. when they happen, they can leave assets even more vulnerable to threats then they alredy are.
+

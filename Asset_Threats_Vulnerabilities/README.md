@@ -218,3 +218,42 @@ It is a layered approach to vulnerability management that reduces risk. it is al
 
   5) **Data Layer** : We have arrived at the critical data that must be protected, like personally identifiable information.
 
+## Vulnerability Assessment :
+It is an internal review process of an Orgs security system. weaknesses and flaws are generally found during a vulnerability assessment.
+
+Vulnerability assessment processes
+- Identification
+- Vulnerability analysis
+- Risk Assessment
+- Remediation
+
+## Vulnerability Scanning :
+These tools are commonly used to simulate threats by finding vulnerabilities in an attack surface. A vulnerability Scanner is software that automatically compares known vulnerabilities and exposures against the technologies on the network.
+
+The scans are used to analyze five attack surfaces.
+
+1) Perimeter layer --> Like autentication surfaces
+2) Network layer --> like Network firewalls etc
+3) EndPoint layer --> devices on network like laptop,desktop
+4) Application layer --> Software users interact with
+5) Data layer --> Data that is stored, used, (or) intransit
+
+## Performing Scans :
+Vulnerability scanners are meant to be non-intrusive. so they dont break (or) take advantage of a system like an attacker would.
+
+### External (Vs) Internal:
+External & Internal Scans simulate an attackers approach. External Scans test the perimeter layer outside of the internal network they analyze outwards facing systems like websites & firewalls. internal scan starts by examining an org's internal systems this might analyze app software for weaknesses.
+
+### Authenticated (Vs) Unauthenticated :
+Authenticated & unauthenticated scans whether (Or) not a user has access to a system. 
+
+Authenticated scans might test a system by logging in with a real user account (or) even with an admin account. These are used to check for vulnerabilities.
+
+Unauthenticated scans simulate external threat actors that do not have access to business resource.
+
+### Limited (Vs) Comprehensive :
+limited & Comprehensive scans focus on particular devices that are accessed by internal and external users.
+
+Limited Scans analyze particular devices on a network, like misconfigs on a firewall.
+
+Comprehensive scans analyze all devices connected to a network, this includes OS, user DB, etc.

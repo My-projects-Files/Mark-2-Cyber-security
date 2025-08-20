@@ -127,3 +127,32 @@ It is typically applied where a data owner decides appropriate level of access.
 
 ### Role Based Access Control (RBAC) :
 It is used when authorization is determined by a users role within an organization.
+
+## Common Vulnerabilities & Exposures list (CVE list) :
+It is an openly accessibile dictionary of known vulnerabilities and exposures. it was originaly created by MITRE Corp.
+
+### MITRE :
+It is a collection of non-profile research and development centres sponcered by US Government.
+
+### CVE Numbering Authority(CNA):
+It is an organization that volunters to analyze and distribute information on eligible CVEs.
+
+**CVE list Criteria** :
+- Independent of other issues
+- Recognized as a potential security risk
+- Submitted with supporting evidence
+- Only affect one codebase.
+
+### Common vulnerability scoring system (CVSS) -(0-10)
+It is a measurement system that scores the severity of a vulnerability. this is a way of calculating the impact a vulnerability could have on a system. They also use them to determine how quick it should be patched.
+
+### Open Source intelligence (OSINT) :
+It is the collection and analysis of information from publicly available sources to generate usable intelligence. it plays a significant role in information security(info sec), which is the practice of keeping data in all states away from unauthorized users.
+
+**Ways OSINT can be used to generate instelligence** :
+- Provide insights into cyber attacks
+- To detect potential data exposures
+- To evaluate existing defenses
+- To identify unknown vulnerabilities
+
+

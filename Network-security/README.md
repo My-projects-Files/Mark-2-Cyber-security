@@ -213,6 +213,23 @@ The Process of strengthening a system to reduce its Vulnerability and attack sur
 
 **Attack Surface** : All the potential vulnerabilities that a threat actor could exploit are called Attack Surface.
 
+### Attack Vector:
+The Pathways attackers use to penetrate Security defenses. these pathways are the expoitable features of an attack surface.
+
+**Practicing an attacker mindset**:
+
+  1) Identify a target
+  2) Determine how the target can be accessed
+  3) Evaluate attack vectors that can be exploited
+  4) Find the tools and methods of attack
+
+**Defending attack vectors** :
+
+  1) Educating users
+  2) Applying the principle of least privilege
+  3) Using the right security controls and tools
+  4) Building a diverse security team.
+
 Security hardening can be conducted on any device (or) system that can be compromised such as
 
   - Hardware

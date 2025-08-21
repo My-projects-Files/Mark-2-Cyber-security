@@ -148,3 +148,20 @@ It is an additional safeguard that used to strengthen hash funtions. a salt is a
       |__Password__| ---> |__Hash__| ---> |__ENC(zd#qh$md3)__|
                           |__salt__|
 
+
+## Penetration Testing :
+It is a simulated attack that helps identify vulnerabilities in system, networks, websites, applications, and processes. it involves using the same tools & techniques as malicious actors to mimic a real attack.
+
+**Types of Pen test strategies** :
+
+There are of three common pen test strategies
+
+### Open-box testing :
+This is when the tester has the same privileged access that an internal dev has, like system arch, data flow. They are also called including internal, full knowledge, white-box, and clear-box penetration testing.
+
+### Closed-box testing :
+This is when the tester has little to no access to internal systems, just like malicious hacker. They are also called external, black-box ,(or) Zero knowledge pen testing.
+
+### Partial knowledge testing :
+This is when the tester has limited access & knowledge of an internal system. this strategy is also called gray-box testing.
+

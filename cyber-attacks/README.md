@@ -48,7 +48,21 @@ The ILOVEYOU virus, also called the "Love Letter" worm, was one of the most dama
 
 
 ## Phishing
-Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. 
+Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software.
+
+## Phishing Kit :
+It is a collection of software tools needed to launch a Phishing Campaign. The three main tools in phishing kit are
+
+  1) Malicious attachments
+  2) Fake data-collection forms
+  3) Fraudualent weblinks
+
+### Phishing Security Measures :
+  - Anti-phishing Policies
+  - Employee Training Resources
+  - Email filters
+  - Intrusion Prevention systems
+
 
 Some of the most common types of phishing attacks today include: 
 
@@ -93,6 +107,19 @@ Some of the most common types of social engineering attacks today include:
 
 ## Social engineering principles 
 Social engineering is incredibly effective. This is because people are generally trusting and conditioned to respect authority. The number of social engineering attacks is increasing with every new social media application that allows public access to people's data. Although sharing personal data—such as your location or photos—can be convenient, it’s also a risk.
+
+### Stages of Social Engineering :
+
+  1) Prepare
+  2) Establish Trust
+  3) Use Persuasion tactics
+  4) Disconnect from the target
+
+### Preventing Social Engineering:
+
+  1) Implementing Managerial controls
+  2) Staying infomation of trends
+  3) Sharing your knowledge with others
 
 Reasons why social engineering attacks are effective include:
 
@@ -139,7 +166,11 @@ It affects secure forms of communcation between a sendoe and intended recipient.
 
 It also comes under communication and network security.
 
-# Treat actor Types
+# Treat actor:
+
+## Threat:
+It is any circumstance (or) events that can negatively impact assets.
+
 ## Threat actors:
 It is any person (or) Group who presents a security risk. this broad definition refers to people inside and outside an organization.
 

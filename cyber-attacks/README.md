@@ -140,6 +140,17 @@ It affects secure forms of communcation between a sendoe and intended recipient.
 It also comes under communication and network security.
 
 # Treat actor Types
+## Threat actors:
+It is any person (or) Group who presents a security risk. this broad definition refers to people inside and outside an organization.
+
+They are normally divided into 5 categories based on motive.
+
+  1) Competitors --> Rival companies that pose a threat because of benifit of leaked info.
+  2) Stateactors --> They are Government intelligence agencies.
+  3) Criminal Syndicate --> Organized group of people that make money from criminal act.
+  4) Insider threats --> Anyone who has (or) had authorized access to n organization resources.
+  5) Shadow IT --> Individuals that use technologies that lack IT Governance.
+
 
 ## Advanced persistent threats (APT)
 This treat actors have significent experties accessing an organisation network without authorization.

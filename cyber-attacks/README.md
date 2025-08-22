@@ -337,16 +337,36 @@ We can reduce the likelihood of experiencing a Malware attacks like Cryptojackin
 
 **Web-based Exploits** :  It is malicious code (or) behavior thats used to take advantage of coding flaws in a web application.
 
-**Injection Attack** :  It is a malicious code inserted into a vulnerable application.
+## Injection Attack : 
+It is a malicious code inserted into a vulnerable application.
+
+### SQL Injection:
+It is an attack that executes unexpected queries on a database.
+
+**Prepared statement** : A coding technique that executes SQL statements before passing them on the database.
+
+There are three main categories of SQL injection.
+
+  - **In-band SQL Injection** : It is a classic SQL injection. An in-band injection is one that uses the same communication channel to launch the attack and gather the results.
+
+  - **Out-of-band** : It is one that uses a different communication channel to launch the attack and gather the results.
+
+  - **Inferential** : It Occurs when an attacker is unable to directly see the results of their attack. instead, they can interpret the results by analyzing the behavior of the system.
+
+### Prevention measure :
+
+A Key to preventing SQL injection attacks is to escape user inputs. there are Several ways to escape user inputs.
+
+   - **Prepared Statement** : A coding Technique that execute statement before passing them to DB.
+
+   - **Input Sanitization** : Programming that removes user input which could be interprited as Code.
+
+   - **Input Validation** : Programming that ensures user input meets a systems expections
 
 ## Cross-Site Scripting (XSS) :
 It is an injection attack that inserts code into a vulnerable website (or) web application. These attacks are often delivered by exploiting the two languages HTML and Javascript.
 
 **Type of Cross-Site Scripting attacks** :
-
-  1) Reflected
-  2) Stored
-  3) DOM-based
 
 1) **Reflected XSS Attack** : It is an instance where malicious scripts is send to a server and activated during the servers response
 

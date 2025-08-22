@@ -319,3 +319,37 @@ It is an exploit that was previously unknown. when they happen, they can leave a
 ## Cryptojacking :
 
 It is a form of malware that installs software to illegaly mine cryptocurrencies.
+
+### Signs of Cryptojacking :
+
+  - Slowdown
+  - Increased CPU usage
+  - Sudden system crashes
+  - Fast Draining batteries
+  - Unusally high electricity Costs
+
+We can reduce the likelihood of experiencing a Malware attacks like Cryptojacking . the defenses include.
+
+  - Browser Extensions designed to block malware
+  - Using and blockers
+  - Staying alert on the latest trends
+  - Disabling java script
+
+**Web-based Exploits** :  It is malicious code (or) behavior thats used to take advantage of coding flaws in a web application.
+
+**Injection Attack** :  It is a malicious code inserted into a vulnerable application.
+
+## Cross-Site Scripting (XSS) :
+It is an injection attack that inserts code into a vulnerable website (or) web application. These attacks are often delivered by exploiting the two languages HTML and Javascript.
+
+**Type of Cross-Site Scripting attacks** :
+
+  1) Reflected
+  2) Stored
+  3) DOM-based
+
+1) **Reflected XSS Attack** : It is an instance where malicious scripts is send to a server and activated during the servers response
+
+2) **Stored XSS Attacks** : It is an instance when malicious script is injected directly on the server.
+
+3) **DOM-based XSS Attacks** : (Document object model) It is an instance when malicious script exists in the webpage a browser loads.

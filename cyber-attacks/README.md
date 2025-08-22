@@ -91,7 +91,18 @@ Some of the most common types of malware attacks today include:
 
 - **Spyware**: Malware that’s used to gather and sell information without consent. Spyware can be used to access devices. This allows threat actors to collect personal data, such as private emails, texts, voice and image recordings, and locations.
 
+- **Trojan (or) (Trojan horse)** : Malware that looks like a legitimate file (or) Program.
 
+- **Scareware** : This type of malware employees tactics to frighten user into infecting their own device. They trick users by displaying fake warnings that looks legitimate.
+
+- **Fileless Malware** : It does not need to be installed by the user because it uses legitimate programes that are alredy installed to infect PC.
+
+- **Root Kits** : It is a malware that provides remote, administrative access to a computer. Most attacker use rootkit to Open a backdoor to System. This Spreads with combination of two.
+    1) Dropper --> It is a type of malware that comes packed with malicious code, Which is deliverd & Installed onto a target.
+    2) Loader  --> it is a type of malware that downloads strains of malicious code from external source & install them onto a target system.
+ 
+- **Botnet** : Short for "robot network" , is a collection of computers infected by malware that are under the control of a single threat actor, known as the "bot-herder".
+  
 ## Social Engineering 
 Social engineering is a manipulation technique that exploits human error to gain private information, access, or valuables. Human error is usually a result of trusting someone without question. It’s the mission of a threat actor, acting as a social engineer, to create an environment of false trust and lies to exploit as many people as possible. 
 
@@ -305,3 +316,6 @@ Steps to prevents IP Spoofing
 
 It is an exploit that was previously unknown. when they happen, they can leave assets even more vulnerable to threats then they alredy are.
 
+## Cryptojacking :
+
+It is a form of malware that installs software to illegaly mine cryptocurrencies.

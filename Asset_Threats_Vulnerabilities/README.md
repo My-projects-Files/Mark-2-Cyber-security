@@ -257,3 +257,21 @@ limited & Comprehensive scans focus on particular devices that are accessed by i
 Limited Scans analyze particular devices on a network, like misconfigs on a firewall.
 
 Comprehensive scans analyze all devices connected to a network, this includes OS, user DB, etc.
+
+## Attack Vectors :
+
+The Pathways attackers use to penetrate security defenses. These Pathways are the exploitable features of an attack surface.
+
+### Practicing an attacker mindset :
+
+  1) Identify a target
+  2) Determine how the target can be accessed.
+  3) Evaluate attack vectors that can be exploited.
+  4) Find the tools and methods of attack
+
+### Defending attack vectors :
+
+  1) Education Users
+  2) Applying the principle of least privilege
+  3) Using the right security controls and tools
+  4) Building a diverse security team

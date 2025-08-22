@@ -135,8 +135,9 @@ It is an international security standard meant to ensure that organisation store
   
 ## OWASP Security Principles:
 
-- **Minimize Attack urface area** :  It includes all the potential vulnerabilities that a threat actor could exploit, like attack vectors.
-   - Attack Vector : The pathway attacker use to penetrate security defenses.
+- **Minimize Attack Surface area** :  It includes all the potential vulnerabilities that a threat actor could exploit, like attack vectors.
+   
+   - **Attack Vector** : The pathway attacker use to penetrate security defenses. These pathways are the exploitable features of an attack surface.
 
        EX: Phishing emails & Weak passwords.
    

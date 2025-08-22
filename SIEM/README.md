@@ -63,3 +63,7 @@ An Organizations quick attempt to identify an attack , contain the damage, and c
 ## Virus Total:
 
 It is a database tool that has hash values of known online viruses. people use this for analyzing suspicious files, domains, IPs, and URLs.
+
+## Intrusion detection system (IDS) :
+
+It is an application that monitors system activity and alerts on possible intrusion.

@@ -184,12 +184,12 @@ When performing threat modeling there are multiple methods that can be used such
 
 - **STRIDE** : It is a threat - modeling framework developed by microsoft. it commonly used to identify vulnerability in 6 attack vectors.
 
-  1) Spoofing
-  2) Tampering
-  3) Repudiation
-  4) Information disclosure
-  5) Denial of service
-  6) Elevation of Privilege    
+    1) Spoofing
+    2) Tampering
+    3) Repudiation
+    4) Information disclosure
+    5) Denial of service
+    6) Elevation of Privilege    
   
 - **Trike** : It is an open source methodology and tool that takes a security centric approach to threat modeling.
   

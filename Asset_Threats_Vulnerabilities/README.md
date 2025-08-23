@@ -275,3 +275,15 @@ The Pathways attackers use to penetrate security defenses. These Pathways are th
   2) Applying the principle of least privilege
   3) Using the right security controls and tools
   4) Building a diverse security team
+
+## Threat Modeling :
+The Process of identifying assets, their vulnerability and how each is exposed to threats.
+
+### Threat mmodeling steps :
+
+1) **Define the Scope** --> Defines what they build by creating an inventory of assets and classifying them.
+2) **Identify Threats** --> The team defines all potential threat actors.
+3) **Characterize the Environment** --> The team applies an attack mindset to the business.
+4) **Analyze threats** --> The team works together to examine existing Protecting and identify gaps.
+5) **Mitigate Risk** --> The group creates their plan for defending again threats.
+6) **Evaluate findings** --> Everything that was done during the exercise is documented.

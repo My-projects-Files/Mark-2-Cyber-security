@@ -213,6 +213,23 @@ The Process of strengthening a system to reduce its Vulnerability and attack sur
 
 **Attack Surface** : All the potential vulnerabilities that a threat actor could exploit are called Attack Surface.
 
+### Attack Vector:
+The Pathways attackers use to penetrate Security defenses. these pathways are the expoitable features of an attack surface.
+
+**Practicing an attacker mindset**:
+
+  1) Identify a target
+  2) Determine how the target can be accessed
+  3) Evaluate attack vectors that can be exploited
+  4) Find the tools and methods of attack
+
+**Defending attack vectors** :
+
+  1) Educating users
+  2) Applying the principle of least privilege
+  3) Using the right security controls and tools
+  4) Building a diverse security team.
+
 Security hardening can be conducted on any device (or) system that can be compromised such as
 
   - Hardware
@@ -275,3 +292,6 @@ It is a trial and error process of discovering private information. there are di
 **Dictionary attacks** : It uses a similar technique as bruteforce, in this attackers use a list of commonly used passwords and stolen credentials from previous breaches to access a system. attackers originally used a list of words from the dictionary to guess the passwords, so they are called dictionary attacks.
 
 NOTE: using brute force is tedious and time consuming process, so they are range of tools attackers use to conduct their attacks.
+
+## Rainbow tables : 
+It is a file of pre-generated hash values and their associated plain text .They like dictionaries of weak passwords.

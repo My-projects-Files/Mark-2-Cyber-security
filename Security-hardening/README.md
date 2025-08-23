@@ -68,14 +68,28 @@ A hypervisor abstracts the hosts hardware from the OS environment. hypervisors a
 
  Proper configureation and setup can greatly improve the security and performance of a cloud env.
 
- EX: 1) Restricting access to the admin portal
-     2) enable password management
-     3) enable file encryption
-     4) enabling threat detection for SQL database.
+ 
+     EX: 1) Restricting access to the admin portal
+         2) enable password management
+         3) enable file encryption
+         4) enabling threat detection for SQL database.
 
 ### Cryptography :
 
 It can be applied to security data that is processed and stored in a cloud env. cryptography encription is a key way to secure sensitive data. crytography uses encryption and secure key management system to provide data integrity and confidentiality.
+
+Data of any kind is kept secret using a two-step process.
+
+  1) Encryption --> To hide the information
+  2) Decryption --> To unhide the information
+
+**Algorithm** : It is a set of rules used that solve a problem.
+
+**Cipher** : it is an algorithm that encrypts information.
+
+**Cryptographic key** : A mechanism that decrypts ciphertext.
+
+**Brute force attack** : A trail & error process of discovering private information.
 
 ### Cryptographic Erasure :
 
@@ -84,3 +98,70 @@ It is a menthod of erasing the encryption key for the encrypted data. when destr
 ### Crypto-shredding :
 
 It is a new technique where the cryptographic keys used for decryption the data are destroyed. this makes data undecipherable. All copies of the key need to be destroyed so no one has any opportunity to access the data in the future.
+
+## Public Key Information (PKI) :
+
+It is an encryption framework that secures the exchanges of information online. The PKI follows two step process.
+
+  1) Exchange of encrypted information
+       - Asymmetric encryption
+       - Symmetric encryption
+  2) Establish trust using a system of digital certificates.
+
+
+**Asymmetric Encryption**: The use of a Public and Private key pair for encryption & decryption of data.
+
+**Symmetric Encryption**: The use of a single secret key to exchange information.
+
+**Digital Certification**: It is a file that verifies the identity of a Public key holder. most online info is exchange using digital certificate.
+
+Process of Obtaining a digital certificate.
+
+      |__Name, country, public key__|  -->  |__Verification__| --> |__Encryption__| --> |__ Name, Country, Public key__|
+                                                                  |__CA's PrivateKey__|        |__CA's digital sign__|
+
+## Hash Function:
+
+It is an algorithm that produces a code that cant be decrypted. unlike the asymmetric and symmetric algorithms, hash funtion are one-way processes that do not generate decryption keys. instead, these algorithems produce a unique identifier known as a hash value (or) digest.
+
+Data integrity relates to the accuracy and consistency of information. this is called non-repudiation. 
+
+### Non-repudiation:
+The concept that the authenticity of information can't be denied. to generate a hashing of any file in linux.
+
+      Ex: sha256sum file.txt
+
+Five funtion that make up the SHA family are  
+
+  - SHA-1
+  - SHA-224
+  - SHA-256
+  - SHA-384
+  - SHA-512 
+
+### Rainbow tables:
+It is a file of pre-generated hash values and their associated plaintext. they are like dictionaries of weak passwords
+
+### Salting:
+It is an additional safeguard that used to strengthen hash funtions. a salt is a random string of characters thats added to data before its hashed. the added char produce a more unique hash value, making salted data resilient to rainbow table attacks.
+
+      |__Password__| ---> |__Hash__| ---> |__ENC(zd#qh$md3)__|
+                          |__salt__|
+
+
+## Penetration Testing :
+It is a simulated attack that helps identify vulnerabilities in system, networks, websites, applications, and processes. it involves using the same tools & techniques as malicious actors to mimic a real attack.
+
+**Types of Pen test strategies** :
+
+There are of three common pen test strategies
+
+### Open-box testing :
+This is when the tester has the same privileged access that an internal dev has, like system arch, data flow. They are also called including internal, full knowledge, white-box, and clear-box penetration testing.
+
+### Closed-box testing :
+This is when the tester has little to no access to internal systems, just like malicious hacker. They are also called external, black-box ,(or) Zero knowledge pen testing.
+
+### Partial knowledge testing :
+This is when the tester has limited access & knowledge of an internal system. this strategy is also called gray-box testing.
+

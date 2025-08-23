@@ -60,3 +60,10 @@ These includes playbook for incident response security alerts, Team-specific, an
 
 An Organizations quick attempt to identify an attack , contain the damage, and correct the effects of a security breach. It is a guide with 6 phases used to help mitigate & manage Security incidents from beginning to end.
 
+## Virus Total:
+
+It is a database tool that has hash values of known online viruses. people use this for analyzing suspicious files, domains, IPs, and URLs.
+
+## Intrusion detection system (IDS) :
+
+It is an application that monitors system activity and alerts on possible intrusion.

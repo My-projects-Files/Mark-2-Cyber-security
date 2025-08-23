@@ -155,4 +155,43 @@ It is the collection and analysis of information from publicly available sources
 - To evaluate existing defenses
 - To identify unknown vulnerabilities
 
+## PASTA (The Process for attack simulation and threat analysis) :
+
+**Attack Tree** : It is a diagram that maps threats to assets.
+
+It is a popular threat modeling framework thats used across many industries. Stages of this framework are
+
+1) Define business and Security objective
+2) Define the technical Scope
+3) Decompose the application
+4) Perform a threat analysis
+5) Perform a Vulnerability analysis
+6) Conduct attack modeling
+7) Analyze risk & Impact
+
+The Security team uses attack trees to identify attack vectors. 
+
+           Ex:  |__Customer info Database__|        |__Customer info DB__|          |__Customer info DB__|
+                            |                                 |                               |
+                                                      |__SQL Injection__|            |__SQL injection__|
+                                                                                              |
+                                                                                    |__Unsanitized inputs__|
+Some of the other common frameworks are
+
+## Common frameworks :
+
+When performing threat modeling there are multiple methods that can be used such as
+
+- **STRIDE** : It is a threat - modeling framework developed by microsoft. it commonly used to identify vulnerability in 6 attack vectors.
+
+  1) Spoofing
+  2) Tampering
+  3) Repudiation
+  4) Information disclosure
+  5) Denial of service
+  6) Elevation of Privilege    
+  
+- **Trike** : It is an open source methodology and tool that takes a security centric approach to threat modeling.
+  
+- **VAST** : The Visual, Agile, and simple threat (VAST) modeling framework is part of an automated threat modeling platform called Threat modeler.
 

@@ -67,3 +67,43 @@ It is a database tool that has hash values of known online viruses. people use t
 ## Intrusion detection system (IDS) :
 
 It is an application that monitors system activity and alerts on possible intrusion.
+
+## Detection Tool Types :
+
+- Detection and management tools
+- Documentation tools
+- Investigative tools
+
+**Documentation** : It is any form of recorded contents that is used for a specific purpose.
+
+### Types of Documentation :
+
+  - Playbook
+  - Incident handler's Journals 
+  - Policies
+  - Plans
+  - Final Reports
+    
+There are no industry standard for documentation.
+
+### Intrusion detection system (IDS) :
+
+It is an appliation that monitors system and network activity and produces alerts on possible intrusions.
+
+### Intrusion Prevention system (IPS) :
+
+It is an application that monitors system activity for intrusions and take action to stop the activity.
+
+### IDS and IPS tools :
+
+  - Snort
+  - Zeek
+  - Kismet
+  - Sagan
+  - Suricata
+
+### Endpoint detection and response (EDS) :
+
+EDS is an application that monitors an endpoint for malicious activity. EDR tools are installed on endpoints. endpoint is any device connected to a network.
+
+## Security Information and Event Management (SIEM) :

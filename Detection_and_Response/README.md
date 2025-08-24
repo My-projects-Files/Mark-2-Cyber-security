@@ -35,4 +35,31 @@ A Specialized group of security professionals that are trained in incident manag
 ### Roles in CSIRT :
 
   - Security analyst --> They investigate security alerts to determine if an inc has occured
-  - Technical lead --> They 
+  - Technical lead --> They Provides Technical leadership by guiding security Incident through their lifecycle.
+  - Incident Coordinator --> They tracks and manages the activities of the CSIRT & other teams Involved in the response effort.
+
+## Security operations Center (SOC) :
+
+It is organizational unit dedicated to monitoring network, system, and devices for security threats (or) attacks.
+
+### SOC Organization :
+It is composed of SOC analysts, SOC leads, and SOC managers.
+
+**Tier 1 SOC Analyst** : It Composed of the least experienced SOC analysts who are known as Level 1. They usually do monitoring, reviewing, and prioritizing alerts, Creating & Closing alerts ticket system etc.
+
+**Tier 2 SOC Analyst** : It composed of more experienced SOC analysts, they are responsible for receiving escalated tickets from L1 and configuring, refining security tools, and reporting to Lead.
+
+**Tier 3 SOC Lead** : It Composed of the SOC Leads, managing team operations, exploring methods of detection by performing advanced detection techniques, such as malware & forensics analysis. they report to SOC manager.
+
+**SOC manager** : He is at the top and is responsible for hiring , Training,and evaluating the SOC team members. Creating and managing the Performance of the SOC team. Developing reports, Communicating with stake holders.
+
+## Incident Response Plan :
+It is a document that outlines the Procedures to take in each step of incident response. Organizations tailor their plans to meet their unique requirements such as their mission, size, culture, industry and structure.
+
+### Most common elements of an incident Plan:
+
+  - Incident Response Procedures --> Step-by-Step instructions
+  - System information --> Network diagram , data flow diagram, logging.
+  - Other documents --> Like contact lists, Forms, & Templates.
+
+

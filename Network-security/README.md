@@ -37,7 +37,9 @@ Webservice -> Moderm -> Firewall -> Router -> Switch -> Laptop
   - Infrastruction as a service (IAAS)
   - Platform as a Service (PAAS)
 
-**Date Packet** : A Basic unit of information that travels from one devices to another within a network. Data packets includes instruction that tell the receiving devices what to do with the information. these instruction come in the form of a port number.  
+## **Date Packet** :
+
+A Basic unit of information that travels from one devices to another within a network. Data packets includes instruction that tell the receiving devices what to do with the information. these instruction come in the form of a port number.  
   
   The data packet consists of
    
@@ -46,6 +48,17 @@ Webservice -> Moderm -> Firewall -> Router -> Switch -> Laptop
 Header --> IP address/MAC address/Protocol Number 
 Body --> Message
 Footer --> Indicates that message is Finished 
+
+### Header : 
+Packets begin with essential component. They Provide info thats used to route packetsto their destination. Different Protocols use different headers. Fields of the IPV4 header consists of
+
+**Version** ---> It Specifies which Version of IP is being used.
+
+**Internet Header Length (IHL)** --->  This field Specifies the length of the IP header & any Options.
+
+**Type of Service (TOS)** ---> This tells us if certain packets should be treated with different care.
+
+**Total Length** : It identifies the length of the entire packet, including the headers and the data.
 
 The Movement of data packets across a network can provide an indication how well the network is performing.
         

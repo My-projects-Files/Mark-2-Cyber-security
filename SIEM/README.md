@@ -107,3 +107,65 @@ It is an application that monitors system activity for intrusions and take actio
 EDS is an application that monitors an endpoint for malicious activity. EDR tools are installed on endpoints. endpoint is any device connected to a network.
 
 ## Security Information and Event Management (SIEM) :
+
+An application that collects and analyzes log data to monitor critical activities in an organization.
+
+### SIEM Process :
+
+1) Collect and aggregate date (mostly logs)
+2) Normalize data
+3) Analyze data
+
+**Security Orchestration, automation, and response (SOAR)** :
+A Collection of applications, Tools, and work flows that uses automation to respond to security events.
+
+**Network Traffic** : The amount of data that moves across a network.
+
+**Network data** : It is the data thats transmitted between devices on a network.
+
+## Indicators of compromise (IOC) :
+
+Observable evidence that suggestes signs of a potential security incident. we can think of data exfiltration.
+
+**Data Exfiltration** :
+
+Unauthorized transmission of data from a system. They are used to Steal (or) leak data such as user name, Password (or) Intellectual Property.
+
+**Command and Control (C2)**:
+
+It is when malicious actors use protocols and Ports that are not commonly associated to maintain communications between the compromised system and their own machine.
+
+**Packet Payload information**:
+
+It is the actual data thats transmitted in network Packets often, This data is encrypted and requires decryption for it to be readable.
+
+**Temporal Patterns** :
+
+Network Packets Contain information relating to time. This information is useful in understanding time Patterns. if large volumes of traffic are suddenly outside of the normal hows of network activity, then this is considered off basline and should be investigated.
+
+### Defensive Measures for Exfiltration attacks:
+
+  1) Prevent attacker access
+  2) Monitor Network activity
+  3) Protect assets
+  4) Detect and Stop the exfiltration
+
+### Lateral Movement : (or) (Pivoting) :
+
+It describes an attacker exploring a network with the goal of expanding and maintaining their access.
+
+### Network Protocol Analyzer : (or) (Packet Sniffer) 
+
+It is a tool desined to capture and analyze data traffic within a network.
+
+## Packet Capture (P-Cap) :
+
+A file Containing data packets intercepted from an interface (or) network. P-Cap Files can come in many formats depending on the packet capture library. some of the libraries & Formats are 
+
+1) **LibPCap** : It is a Packet capture library designed to be used by unix-like system, like linux & macOS. Tools like tcpdump use LibPcap as the default Packet Capture.
+2) **WinPcap** : It is an Open-Source Packet Capture library designed for devices running windows OS. its an old file format & isn't mainly used.
+
+3) **NPCap** : It is a library designed by the Port Scanning tool Nmap that is commonly used in windows OS.
+
+4) **PCAPng** : It is a modern file format that can simultaneously capture packets and store data. Its ability to do both explains the "ng", which Stands for "next generation".
+

@@ -52,13 +52,43 @@ Footer --> Indicates that message is Finished
 ### Header : 
 Packets begin with essential component. They Provide info thats used to route packetsto their destination. Different Protocols use different headers. Fields of the IPV4 header consists of
 
-**Version** ---> It Specifies which Version of IP is being used.
+- **Version** ---> It Specifies which Version of IP is being used.
 
-**Internet Header Length (IHL)** --->  This field Specifies the length of the IP header & any Options.
+- **Internet Header Length (IHL)** --->  This field Specifies the length of the IP header & any Options.
 
-**Type of Service (TOS)** ---> This tells us if certain packets should be treated with different care.
+- **Type of Service (TOS)** ---> This tells us if certain packets should be treated with different care.
 
-**Total Length** : It identifies the length of the entire packet, including the headers and the data.
+- **Total Length** ---> It identifies the length of the entire packet, including the headers and the data.
+
+- **Identification, Flags, Fragment Offset** ---> It deals with information related to fragmentation. fragmentation is when an IP packet gets broken up into chunks, which then get transmitted over the wire & Reassembled at the destination. they specify if fragmentation is used, and how to reassemble the broken packets in the correct order.
+
+- **Time to Live** ---> This field determines how long a packet can live before it gets dropped without it packets could loop through routers endlessly. 
+
+- **Protocol**  ---> This field specifies the protocol used by Providing a value which corresponds to a Protocol.
+
+- **Header Checksum** ---> It Stores a value called a checksum, it is used to determine if any errors have occured in the header.
+
+- **Source Address** ---> It specifies the Source IP address.
+
+- **Destination Address** ---> It Specifies the destination IP address.
+
+- **Options** ---> This field is not reuired and is commonly used for network trouble shooting.
+
+**Note** : The internet layer accepts and delivers Packets for the network
+
+When it comes to the header of IPV6 some field resembles IPV4 with some new add ons. The header consists of 
+
+      1) Version  2)Traffic Class 3)Flow label  4) Payload Length  5) Next header  6) Hop Limit  7) Source  8) Destination 
+
+- **Traffic Class** ---> This is similar to IPV4 type of service field. This Provides info about the Packets priority (or) Class to help with Packet delivery. 
+
+- **Flow label** ---> This field is same as packets of a flow. A flow is the sequence of Packets send from a specific source.
+
+- **Payload Length** ---> This field specifies the length of the data Portion of the Packet.
+
+- **Next Header** ---> This field indicates the type of header that follows the IPV6 header such as TCP.
+
+- **Hop Limit** ---> This field is similar to the IPV4 time to live field. it limits how long a packet can travel in a network before being discarded.
 
 The Movement of data packets across a network can provide an indication how well the network is performing.
         

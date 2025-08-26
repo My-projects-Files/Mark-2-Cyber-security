@@ -63,3 +63,25 @@ It is a document that outlines the Procedures to take in each step of incident r
   - Other documents --> Like contact lists, Forms, & Templates.
 
 
+## Detection :
+
+It is the Prompt discovery of Security events. 
+
+**Note** : Not all events are incidents, But all incidents are events.
+
+### Analysis :
+
+It involves the investigation and validation of alets.
+
+Challenges in the detection and analysis Phase.
+
+  - Impossible to detect everything
+  - High volumes of alerts
+
+## Threat hunting :
+
+It is a proactive search for threats on a networks. we use them to uncover malicious activity that was not identified by detection tools and as a way to do further analysis on detections. it is also used to detect threats before they cause damage.
+
+### Threat hunters :
+
+They are specialists in threats  

@@ -118,3 +118,30 @@ Types of package managers
 
 **Standard Error** : Error messages returned by the OS through the shell.
 
+## tcpdump :
+
+It is a command-line network protocol analyzer. it is used to capture network traffic. This traffic can be saved to a Packet Capture (P-Cap).
+
+P-Cap is a file containing data Packets intercepted from an interface (or) network.
+
+    sudo tcpdump -i any -v -c1
+
+**-w**: We can write (or) save the sniffed network Packets to a Packet Capture file instead of just Printing it out in the terminal.
+
+**-r** : We can read a Packet Capture file by specifying the file name as a Parameter.
+
+**-v** : Verbose mode and can be stacked with three levels -v, -vv, -vvv .
+
+**-c** : Count, this lets us control how many Packets tcpdump will capture.
+
+**-n** : tcpdump automatically converts ip address to name. it will also resolve ports to commonly associated services that use these ports. this flag disables this automatic mapping of numbers to names as it is considered best practice when sniffing (or) analyzing traffic.
+
+### Expressions :
+
+This Commands is optional, if we want to search filter for IPV6 tehn we can use IP6.
+
+**Output** :
+
+    sudo tcpdump -i any -v -c1  ---> 20:00:29.538956 IP 198.168.19.1.42 > 198.111.123.3.62018 : Flags
+                                    |__Time Stamp__|   |Source IP & Port| |Destination_ip_&port|
+

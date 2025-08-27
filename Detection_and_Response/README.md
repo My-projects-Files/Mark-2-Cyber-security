@@ -84,4 +84,80 @@ It is a proactive search for threats on a networks. we use them to uncover malic
 
 ### Threat hunters :
 
-They are specialists in threats  
+They are specialists in threats hunting. They perform research on emerging threats and attacks and then determine the Probability of an organization being vulnerable to a paticular attack.
+
+They use a combination of threat intelligence, indicatiors of compromise indication of attack, and ML to search for threats.
+
+### Threat intelligence :
+
+It is an evidence - based threat information that provides context about existing (or) emerging threats.
+
+Threat intelligence can come from private (or) public source like
+
+  - **Industry reports** --> Includes details about attackers tactics, techniques, and Procedures (TTP).
+  - **Government advisories** --> Similar to industry reports, government advisories include (TTP).
+  - **Threat data feeds** --> It Provide a stream of threat-related data that can be used to help protect against sophisticated attackers like advanced persistent threats (APT).
+
+### Advance Persistent threats (APT) :
+They are instances when a threat actor maintains unauthorized access to a system for an extended Period of time. The data is usually a list of indicators like IP addresses, domains, and file hashes.
+
+### Threat Intelligence Platform (TIP) :
+
+It is an application that collects, centralizers, and analyzes threat intelligence from different sources.
+
+### Cyber deception :
+
+It involves techniques that deliberately deceive malicious actors with the goal of increasing detection and improving defensive strategies.
+
+### Honey Pots:
+
+They are an example of an active cyber defense mechanism that uses deception technology. they are systems (or) Resources that are created as decoys vulnerable to attacks with the purpose of attracting potential intruders.
+
+## Automation for finding Threats:
+
+CI/CD Pipelines help release software faster, but they can also open up new vulnerabilities for attackers. when these threats are found, seurity teams can response quickly and limit the damage. this automated threat detection is a main goal of strong CI/CD security.
+
+### Common Indicators of Compromise (IOC) in CI/CD Pipelines :
+
+By understanding common IOC in CI/CD helps us monitor effectively and quickly find security incidents.
+
+  - **Unauthorized code changes** --> Code changes from people who shouldn't be making changes and chnages made at unusual times (or) from unexpented locations also changes that look suspicious, like confusing code, very large deletions without a good reasons, (or) code that dont follow coding rules.
+  
+  - **Suspicious Deployment patterns** --> Deployments to unusual (or) unapproved system, and deployment happening at unexpected times (or) too often, and they started by unusual accounts (or) automated accounts that should not be releasing to prod.
+
+  - **Compromised Dependencies** --> Finding known vulnerabilities (CVEs) independencies during automated checks in the CI/CD pipelines. suddenly adding new, unexpected dependencies to build settings. attempts to download dependencies from unofficial (or) untrusted sources.
+
+  - **Unusual Pipeline execution** --> Pipeline steps that normally works suddenly fails. they taking much longer to run for no clear reason and changes being made.
+
+  - **Secrets exposure attempts** --> logs showing atteptsto get to secrets from unapproved places in pipeline. finding Private secrets hardcoded in code changes.
+
+### Proactive security through monitoring for IOC :
+
+ongoing monitoring of CI/CD pipelines, focusing on anomaly detection and finding IOCs, Making our security stronger and more Proactive by using monitoring tools we can prevent damage by
+
+  - Respond to incidents quickly
+  - Limit the damage
+  - Improve threat knowledge
+
+## Using Automation to find anomalies & IOCs:
+we can use this methods, for monitor CI/CD Pipelines & automatically find threats.
+
+  1) **Comprehensive logging and auditing** : Detailed logs are bases of monitoring. logs provide the raw data that monitoring tools check for unusual activity and Potential indicators of Compromise (IOC). The most common logs for finding anomalies are
+
+     - Pipeline Execution logs
+     - Code commit logs
+     - Access Logs
+     - Deployment logs
+    
+  2) **Security information and event management (SIEM) integration** : Connecting our CI/CD logs to a SIEM tool can help automatically find anomalies at a large scale. SIEM Platforms are made
+
+      - Automatically find anomalies
+      - Use Rules to alerts for known IOC's
+
+  3) **Real-time Alerting and Notifications** : Automated alerts make sure Security teams are notified right away about unusual activity and possible IOC's, so they can respond quickly. Alerts should be setup for :
+
+      - Unusual Build Failures
+      - Suspicious code changes (Based on Anomalies)
+      - Attempts to expose secrets
+      - Unusual Network Traffic
+  4) **Performance Monitoring to find IOA's and discover IOC's** : It is mainly used to make sure things are running smoothly, can also indirectly help find IOC's. Performance issues.

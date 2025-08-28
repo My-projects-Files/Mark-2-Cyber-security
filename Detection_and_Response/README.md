@@ -163,3 +163,39 @@ we can use this methods, for monitor CI/CD Pipelines & automatically find threat
   4) **Performance Monitoring to find IOA's and discover IOC's** : It is mainly used to make sure things are running smoothly, can also indirectly help find IOC's. Performance issues (indicators of attack - IOAs) like sudden slowdowns (or) CI/CD servers running out of resources can lead to deeper checks that may uncover IOC's.
 
   5) **Continuous Vulnerability Scanning** : Regularly checking the CI/CD infra for weaknesses can proactively find vulnerable parts. This includes common vulnerabilities and exposures (CVEs) in CI/CD tools, Plugins, and containers. they are potential IOC's.
+
+### Indicators of compromise (IOC's) :
+
+They are observable evidence that suggests signs of a Potential security incident. IOC's chart specific Pieces of evidence that are associated with an attack, like file name associate with a type of malware.
+
+### Indicators of attack (IOA) :
+
+They are the series of observed events that indicate a real-time incident. IOA's focus on identifying the behavioral evidence of an attacker, including their methods and intentions.
+
+indicators of compromise are not always a confirmation that a security inc has happened. IOC may be the result of human error, system malfunctions, and other reasons not related to security.
+
+**NOTE**: IOC's help of identify the who and what of an attack after its taken place, while IOA's focus on finding the way and how of an ongoing (or) unknown attack.
+
+## Pyramid of pain:
+
+Not all IOC's are equal in the value they provide to security teams. They Pyramid of pain Captures the relationship between IOC's and the level of difficulty that malicioius actors experience when indicators of compromise are blocked by security teams.
+
+Each type of IOC's is seperated into level of difficult. these represents the "pain" level that an attacker faces when security teams blocks the activity associated with the indicator of compromise.
+
+                    /   \
+                  /__TTPs__\
+                 /__Tools___\ 
+                /Network/Host\
+               /__Artifactos__\ 
+              /__domain Names__\
+             /__IP addresses____\
+            /____Hash__Values____\ 
+
+## Benefita of documentation:
+
+  - Transparency
+  - Standardization
+  - Clarity
+
+### Chain of custody:
+The Process of documenting evidence Possession and control during an incident lifecycle.

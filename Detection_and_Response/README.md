@@ -160,4 +160,6 @@ we can use this methods, for monitor CI/CD Pipelines & automatically find threat
       - Suspicious code changes (Based on Anomalies)
       - Attempts to expose secrets
       - Unusual Network Traffic
-  4) **Performance Monitoring to find IOA's and discover IOC's** : It is mainly used to make sure things are running smoothly, can also indirectly help find IOC's. Performance issues.
+  4) **Performance Monitoring to find IOA's and discover IOC's** : It is mainly used to make sure things are running smoothly, can also indirectly help find IOC's. Performance issues (indicators of attack - IOAs) like sudden slowdowns (or) CI/CD servers running out of resources can lead to deeper checks that may uncover IOC's.
+
+  5) **Continuous Vulnerability Scanning** : Regularly checking the CI/CD infra for weaknesses can proactively find vulnerable parts. This includes common vulnerabilities and exposures (CVEs) in CI/CD tools, Plugins, and containers. they are potential IOC's.

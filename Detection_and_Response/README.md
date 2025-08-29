@@ -199,3 +199,48 @@ Each type of IOC's is seperated into level of difficult. these represents the "p
 
 ### Chain of custody:
 The Process of documenting evidence Possession and control during an incident lifecycle.
+
+**Broken Chain of Custody**: Inconsistencies in the collection and logging of evidence in the chain of custody.
+
+**Chain of Custody establishes**
+
+  - Integrity
+  - Reliability
+  - Accuracy
+
+
+### Type of Playbook:
+
+  1) Non-automated ---> Step-by-step actions Performed by an analyst
+  2) Automated ---> It automate tasks in incident response processes
+  3) Semi-Automated ---> It combines a Persons action with automation.
+
+Semi-automated Playbooks can help increase Productivity and decreaser time to Resolution.
+
+# Triage
+
+The Prioritizing of incidents according to their level of importance (or) Urgency.
+
+## Processes of Triage:
+
+  1) Receive and assess
+  2) Assign Priority
+  3) Collect and analyze
+
+**Questions to ask**:
+
+  - is there anything out of the ordinary ?
+  - Are there Multiple failed login attempts ?
+  - Did the login happen outside of normal working hours ?
+  - Did the login happen outside of the network ?
+
+### Assign Priority :
+Once an alert has been properly assesses and verified as a security issue, it needs to be prioritized accordingly, Incidents differ in their impact, Size, and Scope, which affests the response efforts.
+
+### Factors to Consider when setting priority:
+
+- **Functional Impact** : Security incidents that target information technology systems impact the service that these systems provide to its users. consider how INC the business funtionality of affected system.
+  
+- **Information Impact** : Incidents can affect the confidentiality, integrity, and availability of an organization's data and information. Consider the effects that information compromise can have beyond the organization.
+  
+- **Recoverability** : How an Org Recovers from an incident depends on the size and scope of the incident and the amount of resources available. consider whether recovery is possible and consider whether it's worth the time and cost.

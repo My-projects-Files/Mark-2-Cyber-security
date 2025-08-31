@@ -244,3 +244,10 @@ Once an alert has been properly assesses and verified as a security issue, it ne
 - **Information Impact** : Incidents can affect the confidentiality, integrity, and availability of an organization's data and information. Consider the effects that information compromise can have beyond the organization.
   
 - **Recoverability** : How an Org Recovers from an incident depends on the size and scope of the incident and the amount of resources available. consider whether recovery is possible and consider whether it's worth the time and cost.
+
+## Benifits of Triage :
+
+By Prioritizing incs based on their potential impact, we can reduce the scope of impaact to the Organization by ensuring a timely response. here are some benifits.
+
+  - **Resource Management** : Triaging alerts allows security teams to focus their resources on threats that require urgent attention.
+  - **Standardizing approach** : Triage Provides a standardized approach to incident handling. process documents, like playbooks help to move alerts through an iterative proccess to ensure that alerts are properly assessed & Validated.

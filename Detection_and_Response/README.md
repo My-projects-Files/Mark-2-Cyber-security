@@ -1,3 +1,24 @@
+# Practical
+
+## Punycode: 
+It is a part of DNS resolution where It is used to converting words that cannot be written in ASCII, into a unicode ASCII encoding. The original DNS only supports ASCII, so we can't use domains 
+
+    ex: münchen.de, café.com
+
+To support (IDNS) international Domain names, we need a way to convert unicode to ASCII. so for unique domains like above, we can use
+
+      münchen.de   ----->  xn--mnchen-3ya.de
+
+now wen we enter a unicode domain, the browser converts it to punycode before querying DNS. its also used in email system,SSL Cert, Web servers.
+
+### Security Risk of punycode:
+
+They can be abused for phishing, using visually similar char like
+
+    apple.com ---> app1e.com (cgrillic letters)
+
+
+
 # NIST CSF:
 
 The Five Core funtions of the NIST CSF are identify, protect, detect, respond, and recover. the last three steps called detect, respond, and recover are critical stages during incident response. the NIST incident response lifecycle is another NIST framework with steps dedicated to incident response.

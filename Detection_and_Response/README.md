@@ -18,6 +18,19 @@ They can be abused for phishing, using visually similar char like
     apple.com ---> app1e.com (cgrillic letters)
 
 
+## shortened links:
+Attackers usually hide the malicious domains under URL shorteners.   A URL Shortener is a tool that creates a short and unique URL that will redirect to the specific website specified during the initial step of setting up the URL Shortener link.
+
+The attackers normally use the following URL-shortening services to generate malicious links: 
+
+- goo.gl
+- tiny.pl
+-goo.gl
+
+we can see the actual website the shortened link is redirecting you to by appending "+" to it . Type the shortened URL in the address bar of the web browser and add the above characters to see the redirect URL. 
+
+        https://tinyurl.com/bw7t8p4u+  ----> https://tryhackme.com/
+
 
 # NIST CSF:
 

@@ -66,3 +66,7 @@ Types of Risks:
   - **financial impact** : Interupted production & Service, Cost to correct the issue, fines if assets compromised.
   - **identity theft** : orgs must decide whether to share private customer, employee, & outside vender data & for how long. Storing any type of sensitive data presents a risk to the organisation.
         EX: PII , SPII , etc
+
+## UKC(Unified kill chain)
+The UKC states that there are 18 phases to an attack
+<img align="center" src="https://github.com/saikamal33/Mark-2-Cyber-security/blob/main/frameworks-controls/Screenshot%202025-09-28%20174705.png" />

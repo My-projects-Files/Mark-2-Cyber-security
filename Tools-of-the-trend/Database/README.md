@@ -55,6 +55,14 @@ The Most common queries are
         EX: SELECT employee-id, device-id
             FROM employees
             ORDER BY employee-id;
+  
+  - GROUP BY ---> It is used to group rows that have the same value in one or more columns.
+
+        EX: SELECT name
+            FROM Employee
+            GROUP BY name
+            HAVING COUNT(*) > 1;
+
   - DESC (Sorting in descending order) ---> The DESC keywork is for "deconding" and tells SQL to sort numbers from largest to smallets, (OR) alphabetically from Z to A.
 
         EX: SELECT employee-id, device-id

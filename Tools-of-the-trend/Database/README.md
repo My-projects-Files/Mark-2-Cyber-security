@@ -191,6 +191,7 @@ it is a column in one table that refers to the primary key in another table. It 
 ### Type of outer joints
 
 - **LEFT JOIN** : It returns all of the records of the first table, but only returns rows of the second table that match on a specified column.
+- **SELF JOIN** : It is when a table is joined to itself. we can treat it like two separate tables to compare or relate rows within the same table.
 - **RIGHT JOIN** : It returns all of the records of the second table, but only returns rows from the first table that match on a specified column.
 - **FULL OUTER JOIN** : This will returns all records from both tables. if a row dont have any value for a column then it will return as null.
 
